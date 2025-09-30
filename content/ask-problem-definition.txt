@@ -1,0 +1,48 @@
+## X → Y Framework
+### Current State (X - What's happening now that's problematic?)
+Performance appraisals vary widely across managers, with inconsistent scoring methods, subjective interpretations, and uneven application of standards. This leads to employee dissatisfaction, reduced trust in the appraisal system, and unfair outcomes in promotions and compensation.
+
+### Desired State (Y - What outcome do we want to achieve?)
+A fair, consistent, and transparent performance appraisal process where managers apply standardized criteria, employees trust the outcomes, and evaluations support equitable talent development and organizational decision-making.
+
+## PICOC Framework
+### Population (P - Who is affected by this problem?)
+Employees undergoing performance reviews and managers responsible for conducting evaluations across departments and teams.
+
+### Intervention (I - What solution/action are we considering?)
+Introduce standardized performance appraisal practices, including manager calibration meetings, rater training, clear evaluation rubrics, and the integration of multi-rater or peer feedback to ensure fairness.
+
+### Comparison (C - What alternatives exist?)
+Maintaining the current inconsistent review process, relying solely on manager discretion, or adopting less structured evaluation methods without standardization.
+
+### Outcomes (O - What will success look like?)
+Reduced variation in performance ratings across managers, stronger employee trust and satisfaction with the review process, fairer promotion and compensation decisions, better talent identification, and increased manager confidence in the system.
+
+### Context (C - Where/when does this apply?)
+Organizational performance management systems where multiple managers are responsible for employee evaluations, especially during annual and mid-cycle performance reviews, promotion and compensation cycles, and talent development planning.
+
+## Problem Statement
+What are the main causes of inconsistency in employee performance appraisal ratings?
+
+Performance review scores vary significantly across managers, leading to inconsistencies in how employees are evaluated. This lack of standardization raises fairness concerns, reduces employee trust in the review process, and undermines the reliability of performance data used for promotions, compensation, and development decisions.
+
+## Why This Problem Matters
+### Impact on Organization
+If left unaddressed, inconsistent appraisals will continue to create employee disengagement, misaligned promotions, retention challenges, and reduced credibility of the performance management system.
+
+### Stakeholder Impact
+Employees may feel undervalued or unfairly assessed, managers may lack confidence in applying evaluation standards, and leadership may struggle to identify and reward true top performers.
+
+### Strategic Alignment
+This problem directly affects the organization’s ability to achieve goals around fairness, talent retention, leadership development, and overall employee engagement. Addressing it supports a high-performance culture and strengthens trust in organizational processes.
+
+## Evidence Questions to Explore
+### For the Problem (Step 2)
+-What evidence shows that inconsistent performance appraisals exist?
+-How widespread are the inconsistencies across departments or managers?
+-What are the underlying causes of appraisal differences (e.g., lack of training, unclear criteria, manager bias)?
+
+### For the Solution (Step 4)
+-What evidence supports standardized appraisal systems as a solution?
+-Have calibration meetings, rater training, or rubrics improved outcomes in similar organizations?
+-What risks (e.g., increased workload for managers) and benefits (e.g., fairness, trust, retention) should be considered?

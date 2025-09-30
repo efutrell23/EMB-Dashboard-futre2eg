@@ -1,0 +1,95 @@
+# Stakeholder Analysis
+# Identify and analyze all parties affected by your problem and solution
+
+## Internal Stakeholders
+
+### Senior Management
+- **Interest in Problem:** Inconsistent reviews make it difficult to identify true top performers, allocate promotions fairly, and align talent with organizational goals.
+- **Interest in Solution:** Standardized reviews and clearer data improve decision-making, increase trust, and support long-term workforce planning.
+- **Influence Level:** High – they set the tone and approve performance management changes.
+- **Support Level:** Likely supporter – they benefit from better data and stronger organizational trust.
+
+### Middle Management
+- **Interest in Problem:** May be seen as unfair or biased if their ratings differ significantly from peers. This can hurt credibility with staff and leadership.
+- **Interest in Solution:** Alignment meetings and rater training help them justify ratings and reduce the perception of bias. However, they may worry about extra time demands.
+- **Influence Level:** High – they carry out reviews and shape employee perceptions.
+- **Support Level:** Mixed – some will support consistency, while others may resist if they feel their autonomy is being challenged.
+
+### Employees/Staff
+- **Interest in Problem:** Inconsistent reviews create distrust in the system, leading to demotivation, disengagement, and possibly higher turnover.
+- **Interest in Solution:** Fairer and more transparent reviews improve morale, trust in leadership, and career development opportunities.
+- **Influence Level:** Medium – collectively influence culture and retention but have limited direct control over review systems.
+- **Support Level:** Likely supporter – they benefit most from fair and consistent evaluations.
+
+### Other Internal Groups
+- **Department/Group:** HR/Talent Management
+- **Interest in Problem:** HR struggles to ensure fairness, track performance trends, and defend talent decisions when reviews lack consistency.
+- **Interest in Solution:** Gains reliable data for promotions, pay, and workforce planning, and reduces risk of bias complaints.
+- **Influence Level:** High – they design and oversee the performance review process.
+- **Support Level:** Strong supporter – consistent reviews align with HR’s goals for fairness and compliance.
+
+## External Stakeholders
+
+### Customers/Clients
+- **Interest in Problem:** Inconsistent reviews can indirectly affect service quality and innovation if employees feel disengaged or undervalued, which may lower performance.
+- **Interest in Solution:** Customers benefit from improved employee motivation and consistency in service delivery when reviews are more fair and accurate.
+- **Influence Level:** Medium – while not directly involved, customer satisfaction and loyalty are influenced by employee performance.
+- **Support Level:** Likely supporter – better employee performance management usually improves customer experience.
+
+### Suppliers/Partners
+- **Interest in Problem:** If inconsistent reviews lead to employee turnover or disengagement, supplier relationships may suffer due to lack of continuity or inconsistent communication.
+- **Interest in Solution:** More consistent evaluations lead to stable and motivated teams, which improves collaboration with suppliers and partners.
+- **Influence Level:** Low – they don’t directly influence internal HR practices.
+- **Support Level:** Neutral – they may notice benefits but are not directly invested in the review process.
+
+### Regulatory Bodies
+- **Interest in Problem:** Inconsistent or biased performance reviews could raise compliance or legal concerns if they lead to claims of unfair treatment or discrimination.
+- **Interest in Solution:** A more transparent and standardized review process reduces compliance risks and shows alignment with labor and equal opportunity regulations.
+- **Influence Level:** High – they have regulatory power if unfair practices are reported.
+- **Support Level:** Likely supporter – fairness and consistency align with compliance expectations.
+
+### Community/Society
+- **Interest in Problem:** Perceptions of unfair workplace practices can harm the organization’s reputation in the community and affect employer brand.
+- **Interest in Solution:** A fair and transparent review process strengthens trust in the organization as an equitable employer, which attracts talent and builds positive community relations.
+- **Influence Level:** Medium – public opinion can influence the company’s brand and ability to hire.
+- **Support Level:** Likely supporter – communities value fairness, transparency, and equal opportunity in workplaces.
+
+## Stakeholder Engagement Strategy
+
+### High Influence, High Interest (Manage Closely)
+-Senior Management – Engage with regular updates, executive summaries, and data-driven insights showing how consistency improves fairness and supports strategic goals.
+-HR/Talent Management – Involve directly in design and rollout, gather feedback on review alignment meetings, and share dashboard prototypes for input.
+Approach: Regular meetings, progress reports, and workshops to co-create the solution.
+
+### High Influence, Low Interest (Keep Satisfied)
+-Regulatory Bodies – Ensure compliance reporting and transparency standards are met, but keep engagement minimal unless concerns arise.
+Approach: Provide compliance documentation and highlight fairness improvements if requested.
+
+### Low Influence, High Interest (Keep Informed)
+-Employees/Staff – Communicate openly about how the solution ensures fairer reviews and supports career growth.
+-Community/Society – Share outcomes (e.g., fairness initiatives, employee engagement improvements) that strengthen employer brand.
+Approach: Employee town halls, surveys, intranet updates; public communications through company website, social channels, or CSR reports.
+
+### Low Influence, Low Interest (Monitor)
+-Suppliers/Partners – Little direct impact, but keep an eye on potential effects on collaboration and communication.
+Approach: Minimal updates, only if significant organizational changes affect external relationships.
+
+## Key Stakeholder Insights for Evidence Collection
+
+### Who to Interview/Survey
+Senior Management: To understand strategic priorities and expectations for fair reviews.
+HR/Talent Management: To gather insights on current review inconsistencies, policies, and training gaps.
+Employees/Staff: To capture perceptions of fairness, trust, and motivation related to performance reviews.
+Middle Management: To understand challenges in applying evaluation criteria and reactions to alignment meetings.
+
+### What Questions to Ask
+Senior Management: How do inconsistent reviews affect promotion and workforce planning decisions?
+HR/Talent Management: What patterns of inconsistency have been observed, and what tools are currently used to track them?
+Employees/Staff: Do you feel performance reviews are fair and consistent across managers? How does this impact your motivation?
+Middle Management: What difficulties do you face in applying performance criteria consistently? What support would help?
+
+### How to Engage
+Surveys: For employees and middle management to capture broad perceptions.
+Interviews/Focus Groups: With HR and senior leadership to gather in-depth insights.
+Workshops/Pilots: With managers to test alignment meetings and gather feedback.
+Dashboards/Demos: Share early visualizations with leadership to refine the tool.

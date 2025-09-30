@@ -1,0 +1,262 @@
+# Scientific Evidence: Methods & Acquisition Strategy
+# Document your systematic approach to finding research evidence
+
+## Research Question
+What are the main causes of inconsistency in employee performance appraisal ratings?
+
+Questions:
+How does unconscious bias influence appraisal ratings?
+To what extent do managers’ evaluation styles contribute to inconsistent ratings?
+How do differences in managerial training impact appraisal consistency?
+How does the lack of standardized criteria affect performance appraisal outcomes?
+What best practices from other organizations could improve reliability in performance evaluations?
+
+## Search Strategy
+
+### Databases Searched
+- [ ] **PubMed/MEDLINE** [For health/organizational behavior research]
+- [ ] **Business Source Premier** [For business and management research] 
+- [ ] **Google Scholar** [For multidisciplinary academic content]
+- [ ] **JSTOR** [For established academic journals]
+- [ ] **SSRN** [For business and social science working papers]
+- [ ] **Other:** [List additional relevant databases]
+
+### Keywords and Search Terms
+Performance appraisal
+Employee evaluation
+Performance management
+Rating inconsistency
+Manager bias
+Rater reliability
+Fairness in appraisals
+Standardization
+Calibration
+Manager training
+
+#### Primary Keywords (census)
+Term	Description
+Forced Distribution System (FDS)	Appraisal method requiring set percentages in each performance category 618.
+Relative Performance Evaluation	Comparing employees’ performance against each other 6.
+Absolute Rating System	Rating employees against fixed standards, not each other 6.
+Performance Appraisal	Formal process to assess and document employee performance 18.
+Ratee Reactions	Employee responses to being rated, including satisfaction and fairness 32.
+Rater Bias	Supervisor’s personal bias affecting performance ratings 17.
+Organizational Justice	Perceived fairness of appraisal processes and outcomes 3.
+Task Performance	How well employees perform core job duties 412.
+Counterproductive Work Behavior	Harmful actions by employees, like sabotage or withdrawal 41.
+Organizational Citizenship Behavior	Voluntary, helpful behaviors beyond job requirements 11.
+Reward Differentiation	Varying rewards based on performance levels 212.
+Comparison Group Size	Number of employees compared within the rating system 2.
+Outcome Transparency	Clarity and openness about appraisal results 17.
+Information Accuracy	Quality and reliability of data used in ratings 17.
+Motivation and Retention	Employee drive to perform and remain with the organization 12.
+
+#### Boolean Search Combinations
+[Document your search string combinations]
+- Example: ("employee retention" OR "staff turnover") AND ("small business" OR SME)
+
+### Search Filters Applied
+- **Date Range:** [Years included in search]
+- **Language:** [Languages included]
+- **Study Types:** [Research designs included/excluded]
+- **Geographic Scope:** [Regions/countries of interest]
+- **Industry Focus:** [Relevant sectors]
+
+## Selection Criteria
+
+### Inclusion Criteria
+[What studies WILL you include?]
+- Study design requirements
+- Population/context requirements
+- Outcome measures
+- Quality thresholds
+
+### Exclusion Criteria  
+[What studies will you EXCLUDE?]
+- Study limitations
+- Context mismatches
+- Quality concerns
+- Accessibility issues
+
+## Search Results Summary
+
+### Initial Search Results
+- **Total Articles Found:** [Number across all databases]
+- **After Removing Duplicates:** [Number of unique articles]
+- **After Title/Abstract Screening:** [Number meeting basic criteria]
+- **Selected for Full Review:** [Final number for detailed analysis]
+
+### Search Documentation
+[Keep a record of what you searched and when]
+
+**Date:** [Search date]
+**Database:** [Which database]
+**Search Terms:** [Exact search string used]
+**Results:** [Number of results]
+**Notes:** [Any observations about the search]
+
+## Quality Assessment Approach
+[How will you evaluate study quality?]
+
+### Research Design Hierarchy
+1. **Systematic Reviews/Meta-analyses** [Highest quality]
+2. **Randomized Controlled Trials** [High quality]
+3. **Quasi-experimental Studies** [Medium-high quality]
+4. **Cohort Studies** [Medium quality]
+5. **Cross-sectional Studies** [Medium-low quality]
+6. **Case Studies** [Lower quality but valuable for context]
+
+### Quality Criteria Checklist
+- [ ] Clear research question
+- [ ] Appropriate methodology
+- [ ] Adequate sample size
+- [ ] Valid measurement tools
+- [ ] Appropriate statistical analysis
+- [ ] Clear reporting of results
+- [ ] Discussion of limitations
+- [ ] Peer-reviewed publication
+
+## Documentation Process
+[How you'll organize and track your findings]
+
+### Reference Management
+[How you'll keep track of citations]
+
+### Evidence Extraction Form
+[What information you'll record for each study]
+- Citation details
+- Study design and methodology
+- Sample characteristics
+- Key findings
+- Relevance to your problem/solution
+- Quality assessment
+
+## Challenges and Limitations
+[Document any issues with your search process]
+
+### Search Limitations
+[What couldn't you access or find?]
+
+### Resource Constraints
+[Time, database access, or other limitations]
+
+### Topic-Specific Challenges
+[Issues unique to your research area]
+
+---
+INSTRUCTIONS:
+1. Be systematic and comprehensive in your approach
+2. Document everything so others could replicate your search
+3. Focus on research relevant to both your problem AND potential solutions
+4. Use library resources and ask librarians for help with database searches
+5. Keep detailed records of what you find and why you include/exclude studies
+
+
+
+## Search Strategy Summary
+
+**Management Problem:** What are the main causes of inconsistency in employee performance appraisal ratings?
+
+**Research Question:** What factors contribute to inconsistencies in employee performance appraisal ratings?
+
+**X Variable (Intervention):** Manager Training
+**Y Variable (Outcome):** Consistency
+
+### X Variable Terms Tested
+
+**Manager Training:**
+- Query: (TI(Manager Training) OR AB(Manager Training))
+- Total search results: 12567
+- Sample size reviewed: 10
+- Relevant in sample: 8
+- Relevance rate: 80%
+- Estimated relevant results: 10054
+
+**Feedback System:**
+- Query: (TI(Feedback System) OR AB(Feedback System))
+- Total search results: 24127
+- Sample size reviewed: 10
+- Relevant in sample: 1
+- Relevance rate: 10%
+- Estimated relevant results: 2413
+
+**Performance appraisal:**
+- Query: (TI(Performance appraisal) OR AB(Performance appraisal))
+- Total search results: 24464
+- Sample size reviewed: 10
+- Relevant in sample: 10
+- Relevance rate: 100%
+- Estimated relevant results: 24464
+
+### Y Variable Terms Tested
+
+**employee engagement:**
+- Query: (TI(employee engagement) OR AB(employee engagement))
+- Total search results: 10393
+- Sample size reviewed: 10
+- Relevant in sample: 6
+- Relevance rate: 60%
+- Estimated relevant results: 6236
+
+**alignment across ratings:**
+- Query: (TI(alignment across ratings) OR AB(alignment across ratings))
+- Total search results: 49
+- Sample size reviewed: 10
+- Relevant in sample: 1
+- Relevance rate: 10%
+- Estimated relevant results: 5
+
+**Reliability:**
+- Query: (TI(Reliability) OR AB(Reliability))
+- Total search results: 85415
+- Sample size reviewed: 10
+- Relevant in sample: 1
+- Relevance rate: 10%
+- Estimated relevant results: 8542
+
+### Final Recommended Queries
+
+**Best X Query:**
+`((TI(Manager Training) OR AB(Manager Training)) OR (TI(Feedback System) OR AB(Feedback System)) OR (TI(Performance appraisal) OR AB(Performance appraisal)))`
+- Expected results: 27950
+
+**Best Y Query:**
+`((TI(employee engagement) OR AB(employee engagement)) OR (TI(alignment across ratings) OR AB(alignment across ratings)) OR (TI(Reliability) OR AB(Reliability)))`
+- Expected results: 77527
+
+**Combined X AND Y:**
+`((TI(Manager Training) OR AB(Manager Training)) OR (TI(Feedback System) OR AB(Feedback System)) OR (TI(Performance appraisal) OR AB(Performance appraisal))) AND ((TI(employee engagement) OR AB(employee engagement)) OR (TI(alignment across ratings) OR AB(alignment across ratings)) OR (TI(Reliability) OR AB(Reliability)))`
+- Expected results: 819
+
+### Database Setup & Filters
+- Access EBSCO: https://guides.lib.jmu.edu/psychandbehavior
+- IMPORTANT: Click "Searching: psychology and behavioral sciences" and select Business Source Complete
+- Database: Business Source Complete (EBSCO)
+
+### Database Filters (use EBSCO interface controls):
+- Language: English
+- Peer Reviewed: Yes
+- Date Range: 2019-2025 (adjust as needed)
+
+### Methods Search Filters (filter by research methods):
+**Filter Analysis Completed for:** Combined X AND Y
+**Base Query Results:** 819 total hits
+
+**Methods Filter Breakdown:**
+- **Meta-Analyses & Systematic Reviews:** 20 results (2.4%)
+  - Filter: TI(meta-analy*) OR AB(meta-analy*) OR TI("systematic review") OR AB("systematic review")
+- **Controlled & Longitudinal Studies:** 154 results (18.8%)
+  - Filter: TI(experiment* OR controlled OR longitudinal OR randomized OR quasi) OR AB(experiment* OR "controlled stud*" OR "controlled trial" OR "control group" OR "control variable" OR "comparison group" OR "comparative stud*" OR quasi OR longitudinal OR randomized OR randomly OR laboratory OR "before and after stud*" OR "pretest post*" OR "time series" OR "case control" OR "case cohort" OR "cohort stud*" OR "prospective stud*")
+- **General Studies:** 548 results (66.9%)
+  - Filter: AB(study OR studies)
+
+**Quality Hierarchy Recommendation:**
+1. **Focus first on Meta-analyses & Systematic Reviews** (highest quality)
+2. **Then examine Controlled & Longitudinal Studies** (high quality)
+3. **Finally review General Studies** (evaluate quality individually)
+
+### Next Steps
+1. Use final queries to identify 5 studies or effect sizes
+2. Include meta-analyses where available
+3. Apply additional filters as needed
+4. Document findings in evidence-scientific-sources.txt

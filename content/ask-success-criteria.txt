@@ -1,0 +1,129 @@
+# Success Criteria Definition
+# Define specific, measurable criteria to evaluate solution effectiveness
+
+## SMART Success Criteria
+
+### Criterion 1: [Primary Outcome] Improve Rating Consistency
+- **Specific:** Measure the reduction in variance between different managers’ ratings of employees with similar performance.
+- **Measurable:** Achieve ≤ 10% variance in inter-rater reliability scores (down from current baseline).
+- **Achievable:** Implement rater training, standardized criteria, and calibration sessions.
+- **Relevant:** Directly addresses the root issue of inconsistency.
+- **Time-bound:** Within 6 months of implementing interventions.
+
+### Criterion 2: [Secondary Outcome] Increase Perceived Fairness
+- **Specific:** Assess employee perceptions of fairness in performance reviews.
+- **Measurable:** Improve survey results from 65% (baseline) to at least 80% agreement on “appraisals are fair.”
+- **Achievable:** Realistic through transparency, clear communication, and consistent feedback.
+- **Relevant:** Higher perceived fairness drives engagement and trust.
+- **Time-bound:** Measured after the next appraisal cycle (6–9 months).
+
+### Criterion 3: [Additional Outcome] Standardize Evaluation Criteria
+- **Specific:** Implement a unified competency/criteria framework across all departments.
+- **Measurable:** 100% of appraisals using the same framework; reduction in missing or subjective-only categories to <5%.
+- **Achievable:** Feasible with HR-led design, training, and rollout.
+- **Relevant:** Reduces subjectivity and inconsistency across teams.
+- **Time-bound:** Fully implemented before the next appraisal cycle.
+
+## Measurement Framework
+
+### Quantitative Metrics
+
+-Inter-rater reliability score (IRR): Target ≥ 0.8.
+-Variance in ratings: Target ≤ 10%.
+-Survey results: ≥ 80% employee agreement on fairness.
+-Framework adoption: 100% compliance by next cycle.
+
+### Qualitative Indicators
+
+-Employees reporting clearer understanding of appraisal criteria in open-ended survey responses.
+-Managers reporting greater confidence in evaluations.
+-Fewer formal disputes, appeals, or grievances tied to appraisals.
+-HR noting improved consistency during calibration meetings.
+
+### Leading vs. Lagging Indicators
+
+#### Leading Indicators (Early signals of progress)
+Manager training completion, calibration meeting attendance, adoption rates of the framework.
+
+#### Lagging Indicators (Final outcomes)
+Employee satisfaction scores, reduction in variance, turnover rates linked to perceived unfairness.
+
+## Baseline Measurements
+
+### Current State Metrics
+[Document current performance levels for comparison]
+
+**Metric 1:** [Name] = [Current value]
+**Metric 2:** [Name] = [Current value]
+**Metric 3:** [Name] = [Current value]
+
+### Data Collection Plan
+-Statistical analysis of past appraisal scores.
+Annual and post-cycle HR surveys on employee perceptions.
+-Monitoring calibration sessions and HR audits.
+
+## Success Thresholds
+
+### Minimum Acceptable Improvement
+10% variance reduction, 70% fairness perception.
+
+### Target Performance Level
+15–20% variance reduction, 80% fairness perception.
+
+### Stretch Goal
+≤ 5% variance, 90% fairness perception, full framework compliance.
+
+## Stakeholder-Specific Success Criteria
+
+### Management Success Measures
+Consistent, defensible ratings that align with promotion/bonus decisions.
+
+### Employee Success Measures
+Perceived fairness, transparency, and actionable feedback.
+
+### HR/Leadership
+Lower risk of legal challenges, higher trust in appraisal system.
+
+## Risk Indicators
+[What metrics would suggest the solution is failing?]
+
+### Red Flags
+-Manager resistance to training or framework adoption.
+-Increase in appraisal disputes/appeals.
+-Declining employee trust scores.
+
+### Mitigation Triggers
+-Additional manager training or coaching.
+-Revising framework based on feedback.
+-Closer HR monitoring and intervention in calibration sessions.
+
+## Timeline for Assessment
+
+### Short-term (30-90 days)
+Manager training completion, framework rollout, initial calibration sessions.
+
+### Medium-term (3-6 months)
+Early reduction in rating variance, improved inter-rater reliability scores.
+
+### Long-term (6-12 months)
+Sustained fairness perception, consistent ratings across all departments, adoption embedded in culture.
+
+## Reporting Framework
+[How will progress be communicated to stakeholders?]
+
+### Dashboard Metrics
+Inter-rater reliability, variance scores, training completion.
+
+### Regular Reports
+Quarterly HR reports to management and leadership.
+
+### Milestone Reviews
+Formal assessments at the end of each appraisal cycle (6–12 months).
+
+---
+INSTRUCTIONS:
+1. Be specific and measurable - avoid vague terms like "better" or "improved"
+2. Ensure criteria are achievable given your resources and timeline
+3. Include both quantitative and qualitative measures
+4. Consider different stakeholder perspectives on success
+5. Plan how you'll actually collect the measurement data
