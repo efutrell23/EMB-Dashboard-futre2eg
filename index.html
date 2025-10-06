@@ -12,6 +12,7 @@
             --tab-inactive: #95a5a6;
             --step-purple: #450084;
             --step-gold: #CBB677;
+            --step-green: #6a5a8a;
             --border-radius: 15px;
             --transition-speed: 0.3s;
         }
@@ -217,17 +218,6 @@
         }
 
         /* === FLOWCHART STYLING === */
-        .flowchart-step {
-            background: var(--step-green);
-            color: white;
-            padding: 15px 25px;
-            border-radius: 25px;
-            margin: 15px 0;
-            font-weight: bold;
-            text-align: center;
-            box-shadow: 0 4px 15px rgba(39, 174, 96, 0.3);
-        }
-
         .decision-diamond {
             background: var(--step-blue);
             color: white;
@@ -265,6 +255,155 @@
             color: #2c3e50;
             margin-bottom: 10px;
             font-family: 'Segoe UI', sans-serif;
+        }
+
+        /* Enhanced Interactive Cards */
+        .interactive-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            margin: 20px 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .interactive-card:hover {
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+            transform: translateY(-2px);
+        }
+
+        .card-header {
+            background: linear-gradient(135deg, #450084, #2e0057);
+            color: white;
+            padding: 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .card-header:hover {
+            background: linear-gradient(135deg, #5a0099, #450084);
+        }
+
+        .card-toggle {
+            font-size: 1.2em;
+            transition: transform 0.3s ease;
+        }
+
+        .card-content {
+            display: none;
+            padding: 0;
+        }
+
+        .card-content.active {
+            display: block;
+            animation: slideDown 0.3s ease;
+        }
+
+        @keyframes slideDown {
+            from { opacity: 0; max-height: 0; }
+            to { opacity: 1; max-height: 1000px; }
+        }
+
+        /* Tab System for Cards */
+        .card-tabs {
+            display: flex;
+            background: #f8f9fa;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .card-tab {
+            flex: 1;
+            padding: 15px 10px;
+            text-align: center;
+            background: #f8f9fa;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 500;
+            color: #495057;
+        }
+
+        .card-tab:hover {
+            background: #e9ecef;
+            color: #450084;
+        }
+
+        .card-tab.active {
+            background: white;
+            color: #450084;
+            border-bottom: 3px solid #CBB677;
+            font-weight: bold;
+        }
+
+        .card-tab-content {
+            display: none;
+            padding: 25px;
+            line-height: 1.6;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .card-tab-content.active {
+            display: block;
+        }
+
+        /* Professional Text Styling */
+        .card-tab-content h3 {
+            color: #450084;
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+            border-bottom: 2px solid #CBB677;
+            padding-bottom: 8px;
+        }
+
+        .card-tab-content h4 {
+            color: #2c3e50;
+            margin: 20px 0 10px 0;
+            font-size: 1.1em;
+        }
+
+        .card-tab-content ul, .card-tab-content ol {
+            margin: 15px 0;
+            padding-left: 25px;
+        }
+
+        .card-tab-content li {
+            margin: 8px 0;
+            color: #495057;
+        }
+
+        .framework-section {
+            background: #f8f9fa;
+            border-left: 4px solid #CBB677;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .framework-section h4 {
+            color: #450084;
+            margin-top: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .card-tabs {
+                flex-direction: column;
+            }
+            
+            .card-tab {
+                border-bottom: 1px solid #dee2e6;
+            }
+            
+            .card-tab-content {
+                padding: 20px 15px;
+                max-height: 300px;
+            }
         }
 
         .edit-notice {
@@ -431,6 +570,72 @@
             color: #3498db;
             font-weight: bold;
         }
+
+        /* === PROJECT STATUS BUTTON === */
+        .project-status-section {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            border-top: 1px solid rgba(108, 117, 125, 0.2);
+        }
+
+        .project-status-btn {
+            background: rgba(108, 117, 125, 0.7);
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 0.85em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .project-status-btn:hover {
+            background: rgba(108, 117, 125, 0.9);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .project-status-content {
+            background: rgba(248, 249, 250, 0.95);
+            border: 1px solid rgba(108, 117, 125, 0.2);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 15px auto 0 auto;
+            max-width: 450px;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            transition: all 0.4s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .project-status-content.show {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .project-status-content h4 {
+            margin: 0 0 15px 0;
+            color: #495057;
+            font-size: 1em;
+            text-align: center;
+        }
+
+        .project-status-content .checklist {
+            margin: 0;
+            padding-left: 0;
+            text-align: left;
+        }
+
+        .project-status-content .checklist li {
+            font-size: 0.9em;
+            color: #6c757d;
+            margin: 8px 0;
+            padding-left: 5px;
+        }
     </style>
 </head>
 <body>
@@ -477,78 +682,392 @@
                     <h2>🎯 Problem & Solution Framework</h2>
                     <p><strong>Following Module 2 Flowchart:</strong> Define the problem AND identify the preferred solution before collecting evidence.</p>
                     
-                    <div class="milestone-tracker">
-                        <h4>📋 Milestone 1 Checklist (Due: Week 3)</h4>
-                        <ul class="checklist">
-                            <li>GitHub repository created and dashboard running</li>
-                            <li>Problem Definition completed using frameworks</li>
-                            <li>Stakeholder Analysis documented</li>
-                            <li>Success Criteria clearly defined</li>
-                            <li>Progress tracker updated</li>
-                        </ul>
+                    <!-- Interactive Problem Definition Card -->
+                    <div class="interactive-card">
+                        <div class="card-header" onclick="toggleCard('problem-card')">
+                            <span>🎯 Problem Definition Framework</span>
+                            <span class="card-toggle" id="problem-toggle">▼</span>
+                        </div>
+                        <div class="card-content" id="problem-card">
+                            <div class="card-tabs">
+                                <button class="card-tab active" onclick="showCardTab('problem', 'overview')">Overview</button>
+                                <button class="card-tab" onclick="showCardTab('problem', 'picoc')">PICOC Framework</button>
+                                <button class="card-tab" onclick="showCardTab('problem', 'evidence')">Evidence Questions</button>
+                            </div>
+                            
+                            <div class="card-tab-content active" id="problem-overview">
+                                <h3>Problem Focus</h3>
+                                <div class="framework-section">
+                                    <h4>Current Problem Statement</h4>
+                                    <p><strong>What are the main causes of inconsistency in employee performance appraisal ratings?</strong></p>
+                                    
+                                    <p>Performance review scores vary significantly across managers, leading to inconsistencies in how employees are evaluated. This lack of standardization raises fairness concerns, reduces employee trust in the review process, and undermines the reliability of performance data used for promotions, compensation, and development decisions.</p>
+                                </div>
+                                
+                                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px;">
+                                    <div class="framework-section">
+                                        <h4>🚫 Current State</h4>
+                                        <ul>
+                                            <li>Scores vary widely between managers</li>
+                                            <li>Lack of standardized criteria</li>
+                                            <li>Employee trust issues</li>
+                                            <li>Inconsistent talent decisions</li>
+                                        </ul>
+                                    </div>
+                                    <div class="framework-section">
+                                        <h4>✅ Desired State</h4>
+                                        <ul>
+                                            <li>Consistent evaluation process</li>
+                                            <li>Standardized criteria</li>
+                                            <li>Increased employee trust</li>
+                                            <li>Reliable performance data</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="card-tab-content" id="problem-picoc">
+                                <h3>PICOC Framework Analysis</h3>
+                                
+                                <div class="framework-section">
+                                    <h4>👥 Population (Who is affected?)</h4>
+                                    <p>Employees participating in performance reviews, particularly in organizations where manager scoring varies significantly across departments and teams.</p>
+                                </div>
+                                
+                                <div class="framework-section">
+                                    <h4>🔧 Intervention (What solution are we considering?)</h4>
+                                    <p>Dashboard analysis comparing review scores, distributions, and identifying outlier managers to standardize the evaluation process through:</p>
+                                    <ul>
+                                        <li>Performance review alignment meetings</li>
+                                        <li>Rater training programs</li>
+                                        <li>Data visualization tools</li>
+                                        <li>Standardized evaluation criteria</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="framework-section">
+                                    <h4>⚖️ Comparison (What alternatives exist?)</h4>
+                                    <ul>
+                                        <li>Current inconsistent process vs. standardized aligned process</li>
+                                        <li>Manager-only ratings vs. multi-rater feedback systems</li>
+                                        <li>Subjective evaluations vs. data-driven assessment tools</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="framework-section">
+                                    <h4>🎯 Outcomes (What will success look like?)</h4>
+                                    <ul>
+                                        <li>Reduced variation in review scores across managers</li>
+                                        <li>Increased employee trust and satisfaction</li>
+                                        <li>More equitable promotion and compensation decisions</li>
+                                        <li>Better talent identification and development</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="framework-section">
+                                    <h4>🏢 Context (Where/when does this apply?)</h4>
+                                    <p>Organizational performance management systems with multiple managers creating subjective scoring differences, particularly relevant during annual performance review cycles, promotion decisions, and talent development planning.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="card-tab-content" id="problem-evidence">
+                                <h3>Evidence Questions to Explore</h3>
+                                
+                                <div class="framework-section">
+                                    <h4>🔍 Problem Evidence Questions</h4>
+                                    <p><strong>What evidence shows this problem exists?</strong></p>
+                                    <ul>
+                                        <li>Are there noticeable differences in average performance ratings across managers?</li>
+                                        <li>Do some managers consistently rate higher or lower than organizational norms?</li>
+                                        <li>What patterns emerge when comparing ratings by department or role level?</li>
+                                    </ul>
+                                    
+                                    <p><strong>What are the root causes?</strong></p>
+                                    <ul>
+                                        <li>Are differences due to lack of training on performance criteria?</li>
+                                        <li>Is subjective bias influencing ratings?</li>
+                                        <li>Are standardized evaluation tools missing or inconsistently applied?</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="framework-section">
+                                    <h4>💡 Solution Evidence Questions</h4>
+                                    <p><strong>What evidence supports our preferred solution?</strong></p>
+                                    <ul>
+                                        <li>Do performance review alignment meetings improve consistency?</li>
+                                        <li>How effective are data visualization tools in identifying bias?</li>
+                                        <li>What research supports standardized evaluation criteria?</li>
+                                    </ul>
+                                    
+                                    <p><strong>What are the potential risks and benefits?</strong></p>
+                                    <ul>
+                                        <li><strong>Benefits:</strong> More consistent evaluations, increased trust, better talent decisions</li>
+                                        <li><strong>Risks:</strong> Manager resistance, time investment, implementation challenges</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    
-                    <div class="flowchart-step">
-                        STEP 1: ASK - What is the assumed problem?
+
+                    <!-- Interactive Stakeholder Analysis Card -->
+                    <div class="interactive-card">
+                        <div class="card-header" onclick="toggleCard('stakeholder-card')">
+                            <span>👥 Stakeholder Analysis</span>
+                            <span class="card-toggle" id="stakeholder-toggle">▼</span>
+                        </div>
+                        <div class="card-content" id="stakeholder-card">
+                            <div class="card-tabs">
+                                <button class="card-tab active" onclick="showCardTab('stakeholder', 'overview')">Overview</button>
+                                <button class="card-tab" onclick="showCardTab('stakeholder', 'mapping')">Stakeholder Mapping</button>
+                                <button class="card-tab" onclick="showCardTab('stakeholder', 'analysis')">Impact Analysis</button>
+                            </div>
+                            
+                            <div class="card-tab-content active" id="stakeholder-overview">
+                                <h3>Stakeholder Identification</h3>
+                                <p>Comprehensive analysis of all parties affected by performance appraisal inconsistency and potential solutions.</p>
+                                
+                                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px;">
+                                    <div class="framework-section">
+                                        <h4>🏢 Internal Stakeholders</h4>
+                                        <ul>
+                                            <li><strong>Employees:</strong> Directly affected by review outcomes</li>
+                                            <li><strong>Managers:</strong> Conduct reviews, need consistency training</li>
+                                            <li><strong>HR Department:</strong> Oversees performance management system</li>
+                                            <li><strong>Senior Leadership:</strong> Makes strategic talent decisions</li>
+                                        </ul>
+                                    </div>
+                                    <div class="framework-section">
+                                        <h4>🌐 External Stakeholders</h4>
+                                        <ul>
+                                            <li><strong>Job Candidates:</strong> Attracted by fair promotion processes</li>
+                                            <li><strong>Customers:</strong> Benefit from consistent service quality</li>
+                                            <li><strong>Shareholders:</strong> Expect effective talent management</li>
+                                            <li><strong>Regulatory Bodies:</strong> Monitor employment fairness</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="card-tab-content" id="stakeholder-mapping">
+                                <h3>Stakeholder Power & Interest Matrix</h3>
+                                
+                                <div class="framework-section">
+                                    <h4>🔴 High Power, High Interest (Manage Closely)</h4>
+                                    <ul>
+                                        <li><strong>Senior Leadership:</strong> Set performance standards and culture</li>
+                                        <li><strong>HR Leadership:</strong> Own the performance management process</li>
+                                        <li><strong>Department Heads:</strong> Implement review processes in their teams</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="framework-section">
+                                    <h4>🟡 High Power, Low Interest (Keep Satisfied)</h4>
+                                    <ul>
+                                        <li><strong>Board Members:</strong> Concerned with overall organizational performance</li>
+                                        <li><strong>External Auditors:</strong> Review compliance and fairness practices</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="framework-section">
+                                    <h4>🟢 Low Power, High Interest (Keep Informed)</h4>
+                                    <ul>
+                                        <li><strong>Individual Employees:</strong> Directly impacted by review outcomes</li>
+                                        <li><strong>Employee Representatives:</strong> Advocate for fair treatment</li>
+                                        <li><strong>Training Staff:</strong> Support manager development</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="framework-section">
+                                    <h4>🔵 Low Power, Low Interest (Monitor)</h4>
+                                    <ul>
+                                        <li><strong>Job Candidates:</strong> May be influenced by reputation</li>
+                                        <li><strong>Industry Peers:</strong> May benchmark against our practices</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="card-tab-content" id="stakeholder-analysis">
+                                <h3>Stakeholder Impact & Engagement Strategy</h3>
+                                
+                                <div class="framework-section">
+                                    <h4>📊 Impact Assessment</h4>
+                                    <p><strong>Most Affected Stakeholders:</strong></p>
+                                    <ol>
+                                        <li><strong>Employees:</strong> Career progression and compensation directly impacted</li>
+                                        <li><strong>Managers:</strong> Credibility and effectiveness questioned</li>
+                                        <li><strong>HR Department:</strong> System effectiveness and compliance concerns</li>
+                                    </ol>
+                                </div>
+                                
+                                <div class="framework-section">
+                                    <h4>🤝 Engagement Strategies</h4>
+                                    <ul>
+                                        <li><strong>For Senior Leadership:</strong> Focus on ROI, risk mitigation, competitive advantage</li>
+                                        <li><strong>For Managers:</strong> Provide training, support, and clear guidelines</li>
+                                        <li><strong>For Employees:</strong> Communicate changes, gather feedback, ensure transparency</li>
+                                        <li><strong>For HR:</strong> Collaborate on implementation, provide tools and resources</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="framework-section">
+                                    <h4>⚠️ Resistance & Mitigation</h4>
+                                    <ul>
+                                        <li><strong>Manager Resistance:</strong> May feel judgment is questioned → Provide training and support</li>
+                                        <li><strong>Resource Concerns:</strong> Time and cost investments → Show ROI and phased implementation</li>
+                                        <li><strong>Change Fatigue:</strong> Too many initiatives → Integrate with existing processes</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    
-                    <div class="content-file-preview" onclick="openContentFile('ask-problem-definition.txt')">
-                        <h4>📝 content/ask-problem-definition.txt</h4>
-                        <div class="edit-notice">🖊️ Click to edit this file in VS Code</div>
-                        <pre id="problem-definition-content">[This content will load from your .txt file]
 
-Use the X → Y Framework and PICOC Framework to define your management problem clearly.
-See the template file for detailed prompts and structure.</pre>
-                    </div>
-
-                    <div class="content-file-preview" onclick="openContentFile('ask-stakeholder-analysis.txt')">
-                        <h4>📝 content/ask-stakeholder-analysis.txt</h4>
-                        <div class="edit-notice">🖊️ Click to edit this file in VS Code</div>
-                        <pre id="stakeholder-analysis-content">[This content will load from your .txt file]
-
-Identify all stakeholders affected by your problem and potential solution.
-Consider internal and external stakeholders, their interests, and influence levels.</pre>
-                    </div>
-
-                    <div class="content-file-preview" onclick="openContentFile('ask-success-criteria.txt')">
-                        <h4>📝 content/ask-success-criteria.txt</h4>
-                        <div class="edit-notice">🖊️ Click to edit this file in VS Code</div>
-                        <pre id="success-criteria-content">[This content will load from your .txt file]
-
-Define specific, measurable criteria for success.
-How will you know if your evidence-based solution worked?</pre>
-                    </div>
-
-                    <div class="flowchart-step">
-                        STEP 2: ASK - What is the evidence for the assumed problem?
-                    </div>
-
-                    <div class="flowchart-step">
-                        STEP 3: ASK - What is the preferred solution?
-                    </div>
-
-                    <div class="flowchart-step">
-                        STEP 4: ASK - What is the evidence for the preferred solution?
+                    <!-- Interactive Success Criteria Card -->
+                    <div class="interactive-card">
+                        <div class="card-header" onclick="toggleCard('success-card')">
+                            <span>🎯 Success Criteria & Metrics</span>
+                            <span class="card-toggle" id="success-toggle">▼</span>
+                        </div>
+                        <div class="card-content" id="success-card">
+                            <div class="card-tabs">
+                                <button class="card-tab active" onclick="showCardTab('success', 'overview')">Overview</button>
+                                <button class="card-tab" onclick="showCardTab('success', 'metrics')">Key Metrics</button>
+                                <button class="card-tab" onclick="showCardTab('success', 'timeline')">Timeline & Targets</button>
+                            </div>
+                            
+                            <div class="card-tab-content active" id="success-overview">
+                                <h3>How Will We Measure Success?</h3>
+                                
+                                <div class="framework-section">
+                                    <h4>🎯 Primary Success Definition</h4>
+                                    <p>We will know our solution is successful when performance review ratings become more consistent across managers while maintaining fairness and employee trust in the system.</p>
+                                </div>
+                                
+                                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px;">
+                                    <div class="framework-section">
+                                        <h4>📊 Quantitative Measures</h4>
+                                        <ul>
+                                            <li>Reduced standard deviation in manager ratings</li>
+                                            <li>Decreased rating variance between departments</li>
+                                            <li>Improved calibration scores</li>
+                                            <li>Higher inter-rater reliability</li>
+                                        </ul>
+                                    </div>
+                                    <div class="framework-section">
+                                        <h4>💭 Qualitative Measures</h4>
+                                        <ul>
+                                            <li>Increased employee satisfaction with reviews</li>
+                                            <li>Manager confidence in evaluation process</li>
+                                            <li>Stakeholder trust in talent decisions</li>
+                                            <li>Perceived fairness improvements</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="card-tab-content" id="success-metrics">
+                                <h3>Specific Metrics & Targets</h3>
+                                
+                                <div class="framework-section">
+                                    <h4>📈 Statistical Consistency Metrics</h4>
+                                    <ul>
+                                        <li><strong>Rating Variance:</strong> Reduce standard deviation across managers by 30%</li>
+                                        <li><strong>Department Consistency:</strong> Achieve 95% confidence interval alignment</li>
+                                        <li><strong>Calibration Score:</strong> Improve from current baseline by 25%</li>
+                                        <li><strong>Outlier Reduction:</strong> Decrease extreme rating patterns by 40%</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="framework-section">
+                                    <h4>😊 Employee Experience Metrics</h4>
+                                    <ul>
+                                        <li><strong>Review Satisfaction:</strong> Increase from baseline to 80%+ satisfied</li>
+                                        <li><strong>Fairness Perception:</strong> 85%+ agree reviews are fair across managers</li>
+                                        <li><strong>Trust in Process:</strong> 90%+ trust review outcomes for decisions</li>
+                                        <li><strong>Manager Confidence:</strong> 85%+ managers feel confident in their ratings</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="framework-section">
+                                    <h4>🏢 Business Impact Metrics</h4>
+                                    <ul>
+                                        <li><strong>Talent Retention:</strong> Maintain or improve retention rates</li>
+                                        <li><strong>Promotion Equity:</strong> Balanced promotion rates across departments</li>
+                                        <li><strong>Manager Effectiveness:</strong> Improved performance management scores</li>
+                                        <li><strong>HR Efficiency:</strong> Reduced review-related complaints and appeals</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="card-tab-content" id="success-timeline">
+                                <h3>Implementation Timeline & Milestones</h3>
+                                
+                                <div class="framework-section">
+                                    <h4>⏱️ Short-term Targets (3-6 months)</h4>
+                                    <ul>
+                                        <li>Establish baseline measurements for all key metrics</li>
+                                        <li>Complete manager training on standardized criteria</li>
+                                        <li>Implement calibration meetings for first review cycle</li>
+                                        <li>Deploy dashboard tools for rating analysis</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="framework-section">
+                                    <h4>📅 Medium-term Targets (6-12 months)</h4>
+                                    <ul>
+                                        <li>Achieve 20% reduction in rating variance</li>
+                                        <li>Conduct first post-implementation employee survey</li>
+                                        <li>Complete two full calibrated review cycles</li>
+                                        <li>Document lessons learned and process improvements</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="framework-section">
+                                    <h4>🎯 Long-term Success (12+ months)</h4>
+                                    <ul>
+                                        <li>Meet all quantitative consistency targets</li>
+                                        <li>Achieve employee satisfaction benchmarks</li>
+                                        <li>Demonstrate sustained process improvements</li>
+                                        <li>Document and share best practices organization-wide</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="framework-section">
+                                    <h4>🔄 Continuous Monitoring</h4>
+                                    <ul>
+                                        <li><strong>Monthly:</strong> Review rating consistency dashboards</li>
+                                        <li><strong>Quarterly:</strong> Stakeholder pulse surveys</li>
+                                        <li><strong>Annually:</strong> Comprehensive effectiveness assessment</li>
+                                        <li><strong>Ongoing:</strong> Manager feedback and coaching support</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <p><strong>Next Phase:</strong> Now that we have our problem framework defined, we move to the Evidence Hub to systematically collect and evaluate evidence from all four sources to answer Steps 2 & 4.</p>
+
+                    <!-- Project Status Section -->
+                    <div class="project-status-section">
+                        <button class="project-status-btn" onclick="toggleProjectStatus('tab1')">
+                            Project Status
+                        </button>
+                        <div class="project-status-content" id="tab1-status">
+                            <h4>📋 Milestone 1 Checklist (Due: Week 3)</h4>
+                            <ul class="checklist">
+                                <li>GitHub repository created and dashboard running</li>
+                                <li>Problem Definition completed using frameworks</li>
+                                <li>Stakeholder Analysis documented</li>
+                                <li>Success Criteria clearly defined</li>
+                                <li>Progress tracker updated</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- TAB 2: Evidence Hub -->
                 <div class="tab-panel" id="tab-2">
                     <h2>🔍 Evidence Hub</h2>
                     <p><strong>Purpose:</strong> Systematically collect and critically evaluate evidence from all four sources.</p>
-
-                    <div class="milestone-tracker">
-                        <h4>📋 Milestone 2 & 3 Checkpoints</h4>
-                        <ul class="checklist">
-                            <li><strong>Milestone 2 (Week 6):</strong> Scientific & Practitioner Evidence Complete</li>
-                            <li><strong>Milestone 3 (Week 9):</strong> Organizational & Stakeholder Evidence Complete</li>
-                            <li>All acquisition methods documented</li>
-                            <li>Evidence sources collected and organized</li>
-                            <li>Quality appraisals completed for each evidence type</li>
-                        </ul>
-                    </div>
 
                     <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin: 20px 0;">
                         <h4>🎯 Evidence Collection Goals:</h4>
@@ -649,22 +1168,29 @@ How will you know if your evidence-based solution worked?</pre>
                             <pre>[Assess the representativeness and reliability of stakeholder evidence]</pre>
                         </div>
                     </div>
+
+                    <!-- Project Status Section -->
+                    <div class="project-status-section">
+                        <button class="project-status-btn" onclick="toggleProjectStatus('tab2')">
+                            Project Status
+                        </button>
+                        <div class="project-status-content" id="tab2-status">
+                            <h4>📋 Milestone 2 & 3 Checkpoints</h4>
+                            <ul class="checklist">
+                                <li><strong>Milestone 2 (Week 6):</strong> Scientific & Practitioner Evidence Complete</li>
+                                <li><strong>Milestone 3 (Week 9):</strong> Organizational & Stakeholder Evidence Complete</li>
+                                <li>All acquisition methods documented</li>
+                                <li>Evidence sources collected and organized</li>
+                                <li>Quality appraisals completed for each evidence type</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- TAB 3: Aggregation -->
                 <div class="tab-panel" id="tab-3">
                     <h2>⚖️ Evidence Aggregation</h2>
                     <p><strong>Synthesis Process:</strong> Weigh and combine evidence from multiple sources to form conclusions.</p>
-
-                    <div class="milestone-tracker">
-                        <h4>📋 Milestone 4 Checkpoint (Week 12)</h4>
-                        <ul class="checklist">
-                            <li>Evidence synthesis across all four types completed</li>
-                            <li>Solution design based on evidence analysis</li>
-                            <li>Implementation plan developed</li>
-                            <li>Risk assessment and mitigation strategies</li>
-                        </ul>
-                    </div>
 
                     <div class="content-file-preview" onclick="openContentFile('synthesis-integration.txt')">
                         <h4>📝 content/synthesis-integration.txt</h4>
@@ -673,6 +1199,22 @@ How will you know if your evidence-based solution worked?</pre>
 
 Document areas of agreement, disagreement, and evidence quality.
 Weight the evidence and form recommendations.</pre>
+                    </div>
+
+                    <!-- Project Status Section -->
+                    <div class="project-status-section">
+                        <button class="project-status-btn" onclick="toggleProjectStatus('tab3')">
+                            Project Status
+                        </button>
+                        <div class="project-status-content" id="tab3-status">
+                            <h4>📋 Milestone 4 Checkpoint (Week 12)</h4>
+                            <ul class="checklist">
+                                <li>Evidence synthesis across all four types completed</li>
+                                <li>Solution design based on evidence analysis</li>
+                                <li>Implementation plan developed</li>
+                                <li>Risk assessment and mitigation strategies</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
@@ -736,6 +1278,60 @@ Weight the evidence and form recommendations.</pre>
             alert(`In VS Code, you would open: content/${filename}\n\nThis is where you'll edit your content. Use GitHub Copilot to help with writing and organization!`);
         }
 
+        // Project Status toggle functionality
+        function toggleProjectStatus(tabId) {
+            const content = document.getElementById(tabId + '-status');
+            const button = content.previousElementSibling;
+            
+            if (content.classList.contains('show')) {
+                content.classList.remove('show');
+                button.textContent = 'Project Status';
+            } else {
+                content.classList.add('show');
+                button.textContent = 'Hide Status';
+            }
+        }
+
+        // Interactive card functionality
+        function toggleCard(cardId) {
+            const cardContent = document.getElementById(cardId);
+            const toggle = document.getElementById(cardId.replace('-card', '-toggle'));
+            
+            if (cardContent.style.display === 'none' || cardContent.style.display === '') {
+                cardContent.style.display = 'block';
+                toggle.textContent = '▲';
+                toggle.style.transform = 'rotate(180deg)';
+            } else {
+                cardContent.style.display = 'none';
+                toggle.textContent = '▼';
+                toggle.style.transform = 'rotate(0deg)';
+            }
+        }
+
+        function showCardTab(cardType, tabName) {
+            // Hide all tab contents for this card
+            const tabContents = document.querySelectorAll(`#${cardType}-overview, #${cardType}-picoc, #${cardType}-evidence, #${cardType}-mapping, #${cardType}-analysis, #${cardType}-metrics, #${cardType}-timeline, #${cardType}-edit`);
+            tabContents.forEach(content => {
+                content.classList.remove('active');
+            });
+
+            // Remove active class from all tabs in this card
+            const cardElement = document.querySelector(`#${cardType}-card`).closest('.interactive-card');
+            const tabs = cardElement.querySelectorAll('.card-tab');
+            tabs.forEach(tab => {
+                tab.classList.remove('active');
+            });
+
+            // Show selected tab content
+            const selectedContent = document.getElementById(`${cardType}-${tabName}`);
+            if (selectedContent) {
+                selectedContent.classList.add('active');
+            }
+
+            // Activate selected tab
+            event.target.classList.add('active');
+        }
+
         // Tab Navigation Functionality
         function showTab(tabNumber) {
             // Hide all tab panels
@@ -789,6 +1385,25 @@ Weight the evidence and form recommendations.</pre>
             loadContentFiles();
             updateProgressIndicator(1);
             updateLastUpdatedDate();
+            
+            // Initialize interactive cards - problem-card expanded, others collapsed
+            const cards = ['problem-card', 'stakeholder-card', 'success-card'];
+            cards.forEach(cardId => {
+                const cardContent = document.getElementById(cardId);
+                const toggle = document.getElementById(cardId.replace('-card', '-toggle'));
+                if (cardContent && toggle) {
+                    if (cardId === 'problem-card') {
+                        // Keep Problem Definition Framework expanded by default
+                        cardContent.style.display = 'block';
+                        toggle.textContent = '▲';
+                        toggle.style.transform = 'rotate(180deg)';
+                    } else {
+                        // Collapse other cards
+                        cardContent.style.display = 'none';
+                        toggle.textContent = '▼';
+                    }
+                }
+            });
         });
     </script>
     <script src="content-loader.js"></script>
