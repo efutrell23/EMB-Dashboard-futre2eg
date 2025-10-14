@@ -14,12 +14,12 @@ What best practices from other organizations could improve reliability in perfor
 ## Search Strategy
 
 ### Databases Searched
+- [x] **Business Source Complete** [For business and management research] 
 - [ ] **PubMed/MEDLINE** [For health/organizational behavior research]
-- [ ] **Business Source Premier** [For business and management research] 
 - [ ] **Google Scholar** [For multidisciplinary academic content]
 - [ ] **JSTOR** [For established academic journals]
 - [ ] **SSRN** [For business and social science working papers]
-- [ ] **Other:** [List additional relevant databases]
+- [ ] **Other:** [Not using additional databases for this search]
 
 ### Keywords and Search Terms
 Performance appraisal
@@ -52,48 +52,54 @@ Information Accuracy	Quality and reliability of data used in ratings 17.
 Motivation and Retention	Employee drive to perform and remain with the organization 12.
 
 #### Boolean Search Combinations
-[Document your search string combinations]
-- Example: ("employee retention" OR "staff turnover") AND ("small business" OR SME)
+**Combined X AND Y Query:**
+((TI(Manager Training) OR AB(Manager Training)) OR (TI(Feedback System) OR AB(Feedback System)) OR (TI(Performance appraisal) OR AB(Performance appraisal))) AND ((TI(employee engagement) OR AB(employee engagement)) OR (TI(alignment across ratings) OR AB(alignment across ratings)) OR (TI(Reliability) OR AB(Reliability)))
+
+**Expected Results:** ~830 results (actual: 830 results)
 
 ### Search Filters Applied
-- **Date Range:** [Years included in search]
-- **Language:** [Languages included]
-- **Study Types:** [Research designs included/excluded]
-- **Geographic Scope:** [Regions/countries of interest]
-- **Industry Focus:** [Relevant sectors]
+- **Date Range:** All Time
+- **Language:** English only
+- **Study Types:** Peer-reviewed academic articles only
+- **Geographic Scope:** No geographic restrictions
+- **Industry Focus:** All business/organizational contexts
 
 ## Selection Criteria
 
 ### Inclusion Criteria
-[What studies WILL you include?]
-- Study design requirements
-- Population/context requirements
-- Outcome measures
-- Quality thresholds
+[What types of studies will you include?]
+- **Time frame:** All years (to capture foundational research)
+- **Study design:** Meta-analyses, systematic reviews, empirical quantitative studies
+- **Population:** Managers, supervisors, employees in performance appraisal contexts
+- **Language:** English only
+- **Focus:** Performance appraisal reliability, consistency, bias, rater training
 
-### Exclusion Criteria  
-[What studies will you EXCLUDE?]
-- Study limitations
-- Context mismatches
-- Quality concerns
-- Accessibility issues
+### Exclusion Criteria
+[What will you exclude?]
+- Opinion pieces without empirical data
+- Studies focused solely on educational performance assessment
+- Non-peer reviewed sources
+- Studies not addressing performance appraisal systems
 
 ## Search Results Summary
 
 ### Initial Search Results
-- **Total Articles Found:** [Number across all databases]
-- **After Removing Duplicates:** [Number of unique articles]
-- **After Title/Abstract Screening:** [Number meeting basic criteria]
-- **Selected for Full Review:** [Final number for detailed analysis]
+- **Total Articles Found:** 830 (Business Source Complete)
+- **Search Query Used:** Combined X AND Y query
+- **Database:** Business Source Complete
+- **Filters Applied:** English, Peer-reviewed, All Time
+- **Refined Search Results:** 9 highly relevant studies
+- **After Title/Abstract Screening:** 4 selected for detailed review
+- **Selected for Full Review:** 4 studies (1 meta-analysis, 1 systematic review, 2 empirical studies)
 
 ### Search Documentation
 [Keep a record of what you searched and when]
 
-**Date:** [Search date]
-**Database:** [Which database]
-**Search Terms:** [Exact search string used]
-**Results:** [Number of results]
-**Notes:** [Any observations about the search]
+**Date:** October 14, 2025
+**Database:** Business Source Complete
+**Search Terms:** ((TI(Manager Training) OR AB(Manager Training)) OR (TI(Feedback System) OR AB(Feedback System)) OR (TI(Performance appraisal) OR AB(Performance appraisal))) AND ((TI(employee engagement) OR AB(employee engagement)) OR (TI(alignment across ratings) OR AB(alignment across ratings)) OR (TI(Reliability) OR AB(Reliability)))
+**Results:** 830 results
+**Notes:** Used All Time date range with English and Peer-reviewed filters
 
 ## Quality Assessment Approach
 [How will you evaluate study quality?]
@@ -142,6 +148,86 @@ Motivation and Retention	Employee drive to perform and remain with the organizat
 
 ### Topic-Specific Challenges
 [Issues unique to your research area]
+
+## Selected Studies for Analysis
+
+### Study 1: Meta-Analytical Estimates of Interrater Reliability for Direct Supervisor Performance Ratings: Optimism Under Optimal Measurement Designs
+- **Authors:** Andrew B. Speer, Angie Y. Delacruz, Lauren J. Wegmeyer, and James Perrotta
+- **Year:** 2023
+- **Journal:** Journal of Applied Psychology
+- **Study Design:** Meta-analysis of 22 independent samples
+- **Sample:** 22 studies examining supervisor performance ratings under optimal conditions (direct supervisor ratings only)
+- **Key Findings:** Average observed interrater reliability (IRR) = .65 UNDER OPTIMAL CONDITIONS. In operational settings: .60 (40% inconsistency). For research purposes: .67 (33% inconsistency). Authors argue current estimates are actually underestimates, yet still show substantial inconsistency.
+- **Quality Assessment:** Highest quality evidence - meta-analysis in top-tier journal (American Psychological Association)
+- **Relevance:** Directly quantifies the extent of inconsistency in performance appraisal ratings. Critical finding: Even under optimal measurement conditions, 35-40% inconsistency exists between supervisors rating the same employee.
+
+### Study 2: Doctor performance assessment in daily practise: does it help doctors or not? A systematic review
+- **Authors:** Karlijn Overeem, Marjan J Faber, Onyebuchi A Arah, Glyn Elwyn, Kiki M J M H Lombarts, Hub C Wollersheim & Richard P T M Grol
+- **Year:** 2007
+- **Journal:** Medical Education (Blackwell Publishing)
+- **Study Design:** Systematic review of 64 articles examining doctor performance assessment methods
+- **Sample:** 64 studies of individual doctor performance assessment in routine practice
+- **Key Findings:** (1) Little psychometric assessment of instruments undertaken - reliability/validity poorly established; (2) Most systems rely on single method to assess performance; (3) 6 different assessment methods identified with varying feasibility; (4) Effectiveness of formative assessments poorly studied
+- **Quality Assessment:** High quality - systematic review with comprehensive database search across multiple sources
+- **Relevance:** Demonstrates systematic problems with performance assessment reliability and validity across healthcare settings. Shows widespread lack of psychometric validation of assessment tools, directly supporting evidence of inconsistency in performance ratings.
+
+### Study 3: Interrater Reliability of Job Performance Ratings: Growth to Asymptote Level With Increasing Opportunity to Observe
+- **Authors:** Hannah R. Rothstein
+- **Year:** 1990
+- **Journal:** Journal of Applied Psychology
+- **Study Design:** Large-scale empirical analysis of rating patterns across organizations
+- **Sample:** 9,975 ratees from 79 organizations examined across different exposure periods
+- **Key Findings:** (1) Strong nonlinear relationship between exposure time and reliability (r=.73 and r=.65); (2) Reliability strongest in first 12 months; (3) CRITICAL: Even with 10-20 years of experience, asymptotic reliability levels only reach .60 (40% inconsistency); (4) Changes in reliability mostly due to changes in criterion variance
+- **Quality Assessment:** High quality - large sample empirical study in top-tier journal, foundational research
+- **Relevance:** Demonstrates that even maximum supervisor experience and exposure only achieves 60% reliability. Provides evidence that time/familiarity alone cannot solve performance rating inconsistency - structural problems exist in the rating process itself.
+
+### Study 4: Perspectives of health workers on annual performance appraisal: A study in primary health care
+- **Authors:** Soheila Majidi, Abbas Daneshkohan, Ehsan Zarei, and Tahereh Ashktorab
+- **Year:** 2021 (received 2019, accepted 2020)
+- **Journal:** International Journal of Healthcare Management (Taylor & Francis Group)
+- **Study Design:** Cross-sectional survey study
+- **Sample:** 185 health workers in primary health care setting (Hamadan, Iran)
+- **Key Findings:** (1) Low overall performance appraisal score: 2.65/5.0 - indicating poor quality; (2) Performance feedback scored lowest (2.21/5.0); (3) Major challenges identified: "ineffectiveness of appraisal data for performance improvement, lack of immediate and constructive feedback and UNFAIR performance appraisal"; (4) Positive correlation between appraisal quality and job satisfaction
+- **Quality Assessment:** Good quality - peer-reviewed empirical study with validated questionnaire, adequate sample size
+- **Relevance:** Provides employee perspective confirming performance appraisal problems. Direct evidence of "unfair performance appraisal" from employee viewpoint, supporting inconsistency concerns. Shows systematic problems with feedback quality and effectiveness.
+
+
+
+## Evidence Synthesis and Analysis
+
+### Research Question: What are the main causes of inconsistency in employee performance appraisal ratings?
+
+### Key Evidence Summary:
+
+**Quantitative Evidence of Inconsistency:**
+- **Study 1 (Meta-analysis):** Even under optimal conditions, interrater reliability = .65 (35% inconsistency). In operational settings: .60 (40% inconsistency)
+- **Study 3 (Large empirical study):** Even with 10-20 years supervisor experience, maximum reliability only reaches .60 (40% inconsistency)
+
+**Systemic Causes Identified:**
+1. **Lack of Psychometric Validation** (Study 2): "Little psychometric assessment of instruments undertaken" - tools lack proper reliability/validity testing
+2. **Single Method Dependency** (Study 2): "Most systems rely on single method" - no triangulation or cross-validation
+3. **Poor Feedback Systems** (Study 4): Performance feedback scored 2.21/5.0, indicating systematic feedback quality problems
+4. **Structural Rating Problems** (Study 3): Time and familiarity improve reliability initially but plateau at poor levels, suggesting inherent system flaws
+
+**Employee Impact:**
+- **Study 4:** Employees report "unfair performance appraisal" and overall poor system quality (2.65/5.0)
+- **Study 4:** Positive correlation between appraisal quality and job satisfaction - inconsistency affects employee outcomes
+
+### Main Causes of Inconsistency (Evidence-Based):
+1. **Inadequate Tool Development:** Performance rating instruments lack proper psychometric validation
+2. **Insufficient Rater Training:** Even experienced supervisors (10-20 years) achieve only 60% reliability  
+3. **Single-Source Bias:** Over-reliance on one assessment method without triangulation
+4. **Poor Feedback Mechanisms:** Inadequate quality and timeliness of performance feedback
+5. **Structural System Design:** Fundamental problems in how rating systems are designed and implemented
+
+### Quality of Evidence:
+- **1 Meta-analysis** (highest quality - 22 independent samples)
+- **1 Systematic review** (high quality - 64 studies reviewed) 
+- **2 Empirical studies** (good quality - 9,975 + 185 participants)
+- **Total evidence base:** Comprehensive coverage across multiple contexts and methodologies
+
+### Conclusion:
+This systematic search identified strong, converging evidence from multiple high-quality sources demonstrating that performance appraisal inconsistency is a significant, well-documented problem with identifiable causes. The evidence supports targeted interventions to address tool validation, rater training, system design, and feedback quality.
 
 ---
 INSTRUCTIONS:
