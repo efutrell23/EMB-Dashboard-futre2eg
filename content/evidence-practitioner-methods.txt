@@ -2,161 +2,200 @@
 # Document your approach to gathering expert insights and professional experience
 
 ## Practitioner Evidence Goals
-**Primary Goal:** [What practitioner insights do you need about your problem?]
-**Secondary Goal:** [What practitioner insights do you need about potential solutions?]
+**Primary Goal:** Gather insights from HR professionals and managers on the real-world causes and impacts of performance appraisal rating inconsistency, validating our scientific evidence findings of 35-40% variance.
+
+**Secondary Goal:** Identify proven interventions, best practices, and implementation strategies that have successfully improved rating consistency in organizational settings.
 
 ## Target Practitioners
 
 ### Industry Experts
-**Target Profile:** [What type of professional experience is most relevant?]
-- Years of experience desired: [Range]
-- Industry/sector focus: [Specific industries]
-- Role/position types: [Management levels, functional areas]
-- Company size experience: [Startup, SME, large enterprise]
-- Geographic location: [Local, national, international]
+**Target Profile:** HR Directors, Performance Management Specialists, and Senior Managers with extensive experience in performance appraisal systems and improvement initiatives.
+
+- Years of experience desired: 8-20+ years
+- Industry/sector focus: Healthcare, business services, technology, manufacturing (diverse contexts)
+- Role/position types: HR Directors, CHRO, Performance Management Specialists, Senior Operations Managers, Talent Management Leaders
+- Company size experience: Mid-size (500-5000 employees) to large enterprise (5000+ employees)
+- Geographic location: US-based professionals, with preference for similar organizational contexts
 
 ### Specific Practitioners Identified
-1. **Name/Title/Organization:** [If known]
-   - **Relevance:** [Why this person's experience matters]
-   - **Contact Method:** [How you'll reach them]
+**Note:** Since we're focusing on case study research rather than direct practitioner interviews, we'll identify practitioners through published case studies and organizational success stories.
 
-2. **Name/Title/Organization:** [If known]
-   - **Relevance:** [Why this person's experience matters]
-   - **Contact Method:** [How you'll reach them]
+**Target Case Study Sources:**
+1. **Harvard Business Review Performance Articles**
+   - **Relevance:** Well-researched business articles with real examples
+   - **Access Method:** HBR website, many articles available free online
 
-3. **Name/Title/Organization:** [If known]
-   - **Relevance:** [Why this person's experience matters]
-   - **Contact Method:** [How you'll reach them]
+2. **SHRM Resources**
+   - **Relevance:** Practical HR solutions from real practitioners
+   - **Access Method:** SHRM website - lots of free content available
+
+3. **Consulting Firm Reports**
+   - **Relevance:** Large company case studies and best practices
+   - **Access Method:** Free white papers and reports from company websites
 
 ## Acquisition Methods
 
-### Expert Interviews
-#### Interview Planning
-- **Target Number:** [How many interviews planned?]
-- **Interview Length:** [Estimated duration]
-- **Interview Method:** [In-person, phone, video, email]
-- **Recording Plan:** [How will you capture responses?]
-
-#### Interview Protocol
-**Opening Questions:**
-- Can you tell me about your experience with [problem area]?
-- How long have you been working in this field/role?
-
-**Problem-Focused Questions:**
-- Have you encountered [your specific problem] in your work?
-- What causes this type of problem in your experience?
-- How common is this problem in organizations you've worked with?
-
-**Solution-Focused Questions:**
-- What approaches have you seen work for this type of problem?
-- What solutions have you tried or observed?
-- What would you recommend based on your experience?
-
-**Implementation Questions:**
-- What challenges should we expect when implementing this type of solution?
-- What would you do differently if you were addressing this problem again?
-- What resources or support are critical for success?
-
-**Closing Questions:**
-- Who else would you recommend I speak with about this?
-- Is there anything important I haven't asked about?
-
-### Professional Networks
-
-#### LinkedIn Outreach
-- **Target Search Terms:** [Keywords for finding relevant professionals]
-- **Connection Strategy:** [How you'll approach potential contacts]
-- **Message Template:** [Professional outreach message]
-
-#### Industry Associations
-- **Relevant Associations:** [Professional organizations in your field]
-- **Contact Strategy:** [How you'll engage with association members]
-- **Events/Forums:** [Industry events where you might connect with experts]
-
-### Case Study Research
+### Case Study Research Strategy
+**Primary Focus:** Published case studies and documented organizational success stories of performance appraisal consistency improvement initiatives.
 
 #### Published Case Studies
-- **Target Sources:** [Harvard Business Review, industry publications, consulting reports]
-- **Search Strategy:** [How you'll find relevant case studies]
-- **Documentation Plan:** [How you'll organize case study insights]
+- **Target Sources:** 
+  - Harvard Business Review articles (available online)
+  - SHRM case studies and resources
+  - McKinsey, Deloitte reports (free downloads)
+  - HR industry publications and blogs
+  - LinkedIn articles by HR professionals
+  - Company success stories and case studies
+- **Search Strategy:** 
+  - Keywords: "performance rating consistency," "manager training," "performance review improvement," "fair appraisals," "rating bias"
+  - Online searches: Harvard Business Review website, SHRM articles, Google searches
+  - Company websites and HR blogs
+- **Documentation Plan:** Simple template to capture: what the problem was, what they tried, how they did it, what results they got, what I can learn from it
 
 #### Company Examples
-- **Target Companies:** [Organizations known for addressing similar problems]
-- **Information Sources:** [Annual reports, news articles, presentations]
-- **Contact Strategy:** [How you might reach company representatives]
+- **Target Companies:** 
+  - Well-known companies that have shared their HR transformation stories (like Google, Microsoft, Netflix)
+  - Companies that have been featured in business articles for performance management changes
+  - Organizations that have won HR awards or been recognized for best practices
+- **Information Sources:** 
+  - Company websites and blog posts
+  - HR conference presentations (often available online)
+  - News articles about their performance management changes
+  - Interviews with their HR leaders in business publications
+  - LinkedIn posts by their executives
+- **Contact Strategy:** Focus on publicly available information; secondary outreach to company representatives only if needed for clarification
 
 ## Documentation Strategy
 
-### Interview Documentation
-- **Recording:** [Will you record interviews? If so, how?]
-- **Note-taking:** [Real-time notes plus post-interview summary]
-- **Transcription:** [Full or partial transcription plan]
-- **Analysis:** [How you'll analyze and code responses]
+### Case Study Analysis Template
+**Standardized format for each case study:**
 
-### Case Study Documentation
-- **Template:** [Standardized format for case study summaries]
-- **Key Elements:** [What information you'll capture for each case]
-- **Source Tracking:** [How you'll maintain citation information]
+1. **Organization Profile**
+   - Company name, industry, size
+   - Geographic location
+   - Performance management context
 
-## Outreach Strategy
+2. **Problem Definition**
+   - Specific consistency challenges described
+   - Quantified impact (if available)
+   - Duration/severity of the problem
 
-### Contact Approach
-**Initial Contact Message Template:**
-[Draft your professional outreach message]
+3. **Intervention Details**
+   - Specific solutions implemented
+   - Implementation timeline
+   - Resources required
+   - Key stakeholders involved
 
-**Follow-up Strategy:**
-[How and when you'll follow up if no initial response]
+4. **Results & Outcomes**
+   - Quantitative improvements (ratings consistency, employee satisfaction)
+   - Qualitative benefits reported
+   - Timeline to see results
+   - Unexpected outcomes
 
-**Incentives:**
-[What you can offer in return - summary of findings, networking, etc.]
+5. **Implementation Insights**
+   - Critical success factors
+   - Challenges encountered
+   - Lessons learned
+   - Recommendations for others
 
-### Timing Plan
-- **Outreach Start Date:** [When you'll begin contacting practitioners]
-- **Interview Window:** [Timeline for conducting interviews]
-- **Follow-up Period:** [Time allowed for additional questions]
+6. **Relevance Assessment**
+   - Applicability to our context
+   - Strength of evidence quality
+   - Credibility of source
 
-## Ethical Considerations
+### Source Documentation
+- **Keep Track Of:** Where I found each case study and when
+- **Check Credibility:** Is this from a reliable source? How recent is it?
+- **Note Source Type:** Company's own story vs. outside journalist vs. business school case study
 
-### Informed Consent
-- **Purpose Explanation:** [How you'll explain your research purpose]
-- **Use of Information:** [How you'll use their insights]
-- **Anonymity/Attribution:** [Will you identify them or keep anonymous?]
-- **Approval Process:** [Will they review how you use their input?]
+## Research Strategy
 
-### Professional Courtesy
-- **Time Respect:** [Staying within agreed time limits]
-- **Preparation:** [Being well-prepared for interactions]
-- **Follow-through:** [Sharing results if promised]
+### Case Study Search Plan
+**Phase 1: Find Good Articles & Cases (Weeks 1-2)**
+- Start with HBR and SHRM websites
+- Search for company success stories online
+- Look for recent articles on performance management improvements
+- Goal: Find 8-12 good examples to study
+
+**Phase 2: Look at Company Stories (Weeks 2-3)**
+- Check out company websites and HR blogs
+- Find conference presentations online
+- Read news articles about companies that improved their performance reviews
+- Goal: Document 5-8 real transformation stories
+
+**Phase 3: Put It All Together (Week 4)**
+- Organize what I learned from each case study
+- Look for patterns - what worked across different companies?
+- Figure out what lessons I can actually use
+- Summarize the key insights for my project
+
+### What Makes a Good Case Study for My Research
+**I'll Include Cases That:**
+- Actually talk about performance review consistency or fairness problems
+- Share specific details about what they tried and what happened
+- Give enough information that I can understand how they did it
+- Come from reliable sources (known companies, established business publications)
+- Are recent (last 10 years, preferably last 5)
+
+**I'll Skip Cases That:**
+- Are too vague about what they actually did
+- Don't share any results or outcomes
+- Sound more like theory than real implementation
+- Come from questionable sources or seem like marketing
+
+## My Research Approach
+
+### Using Published Information Responsibly
+- **What I'm Doing:** Looking at case studies and company stories that are already published online to learn from their experiences
+- **How I'll Use It:** I'll give credit to sources and companies when I reference their stories in my project
+- **Being Honest:** I'll present what companies actually found, not just the parts that support my ideas
+- **Staying Realistic:** I'll note when case studies might not apply to my situation or have limitations
 
 ## Expected Challenges
 
-### Access Challenges
-[What difficulties might you face reaching practitioners?]
+### Case Study Availability
+**Challenge:** Limited published case studies specifically focused on performance appraisal consistency
+**Mitigation:** Expand search to include broader performance management improvement cases that address consistency as a component
 
-### Response Rate Concerns
-[What if people don't respond to your outreach?]
+### Information Depth
+**Challenge:** Some case studies may lack enough detail about how they actually did it
+**My Plan:** Look for multiple sources about the same company; focus on cases that share specific numbers and results
 
-### Quality Concerns
-[How will you ensure you get valuable insights?]
+### Source Credibility
+**Challenge:** Hard to tell the difference between real case studies and marketing fluff
+**My Plan:** Stick to well-known business publications and look for cases with actual numbers and results
 
-### Time Constraints
-[How will time limitations affect your approach?]
+### Relevance to Context
+**Challenge:** Cases may be from very different types of companies than what I'm dealing with
+**My Plan:** Look at multiple cases to find common themes that work across different situations; note which context factors matter most
 
 ## Backup Plans
 
 ### Alternative Sources
-[What will you do if you can't reach enough practitioners?]
+**If I can't find enough perfect case studies:**
+- Look at broader performance management improvement stories that mention consistency
+- Check out case studies about reducing bias in hiring (similar challenges)
+- Look at companies that won SHRM awards for HR excellence
 
-### Modified Approaches
-[How might you adapt your methods if needed?]
+### Modified Scope
+**If the "perfect match" cases don't exist:**
+- Include stories about related problems (manager bias, rating inflation, unfair reviews)
+- Look at successful change management cases that had measurable results
+- Focus on finding common patterns in what works, even across different types of problems
 
 ### Minimum Viable Evidence
-[What's the minimum practitioner evidence you need?]
+**What I absolutely need:**
+- At least 5 solid case studies with real results
+- Examples from different types of companies/industries
+- Clear evidence that their solutions actually worked
+- Enough detail that I can understand what they did and consider trying it
 
 ---
-INSTRUCTIONS:
-1. Start outreach early - practitioners are busy and may take time to respond
-2. Be professional and clear about your academic purpose
-3. Prepare thoroughly for interviews to make the most of practitioners' time
-4. Have backup sources in case your primary targets aren't available
-5. Consider offering something valuable in return for their time
+MY RESEARCH REMINDERS:
+1. Start with the most reliable sources (HBR, SHRM, well-known companies)
+2. Use simple search terms that real people would use
+3. Be picky about which case studies I include - quality over quantity
+4. Use my template to organize each case so I can easily compare them
+5. Focus on learning practical lessons I can actually use
+6. Look for patterns across multiple cases to find what really works
+7. Don't get fooled by marketing disguised as case studies

@@ -1,191 +1,204 @@
 # Stakeholder Evidence: Methods & Engagement Strategy
-# Document your approach to gathering stakeholder perspectives and feedback
+# Standardizing Performance Appraisals Project
 
 ## Stakeholder Evidence Goals
-**Primary Goal:** [What stakeholder insights do you need about your problem?]
-**Secondary Goal:** [What stakeholder feedback do you need about potential solutions?]
+**Primary Goal:** Understand how different stakeholder groups perceive the current performance appraisal inconsistency problem, including its impact on fairness, employee morale, legal compliance, and organizational effectiveness.
 
-## Target Stakeholder Groups
+**Secondary Goal:** Gather stakeholder perspectives on standardizing performance appraisals as a solution, including concerns about implementation feasibility, training needs, resource requirements, and expected outcomes.
 
-### Internal Stakeholders
-#### Management/Leadership
-- **Target Participants:** [Specific roles or levels]
-- **Engagement Method:** [Surveys, interviews, focus groups]
-- **Key Questions Focus:** [What you most need to learn from leadership]
-- **Expected Response Rate:** [Realistic participation estimate]
+## Stakeholder Mapping
 
-#### Employees/Staff
-- **Target Participants:** [Departments, roles, or demographic groups]
-- **Engagement Method:** [Surveys, interviews, focus groups]
-- **Key Questions Focus:** [What you most need to learn from employees]
-- **Expected Response Rate:** [Realistic participation estimate]
+### Internal Stakeholders (Primary)
+1. **Employees (Non-supervisory staff)**
+   - **Interest:** Fair treatment, clear expectations, career development
+   - **Power:** Low (individually), Medium (collectively through engagement/retention)
+   - **Classification:** Primary stakeholders - directly affected by appraisal processes
 
-#### Other Internal Groups
-[Additional internal stakeholder categories]
+2. **Managers/Supervisors**
+   - **Interest:** Effective tools, manageable workload, team performance
+   - **Power:** Medium - implement appraisals daily, influence adoption success
+   - **Classification:** Primary stakeholders - responsible for execution
 
-### External Stakeholders
-#### Customers/Clients
-- **Target Participants:** [Customer segments or types]
-- **Engagement Method:** [Surveys, interviews, feedback sessions]
-- **Key Questions Focus:** [What you most need to learn from customers]
-- **Expected Response Rate:** [Realistic participation estimate]
+3. **HR Professionals**
+   - **Interest:** Process efficiency, legal compliance, employee satisfaction
+   - **Power:** High - design and oversee performance management systems
+   - **Classification:** Primary stakeholders - own the process
 
-#### Partners/Suppliers
-- **Target Participants:** [Types of business partners]
-- **Engagement Method:** [Interviews, surveys, informal discussions]
-- **Key Questions Focus:** [What you most need to learn from partners]
-- **Expected Response Rate:** [Realistic participation estimate]
+4. **Senior Leadership/Executives**
+   - **Interest:** Organizational performance, talent retention, legal risk mitigation
+   - **Power:** High - approve resources, set strategic priorities
+   - **Classification:** Primary stakeholders - decision-makers and resource allocators
 
-## Data Collection Methods
+### Internal Stakeholders (Secondary)
+5. **Legal/Compliance Teams**
+   - **Interest:** Legal risk mitigation, defensible appraisal documentation
+   - **Power:** Medium - advise on compliance requirements
+   - **Classification:** Secondary stakeholders - provide oversight and guidance
 
-### Survey Design
-#### Online Survey Platform
-- **Platform Choice:** [SurveyMonkey, Google Forms, Qualtrics, etc.]
-- **Survey Length:** [Estimated completion time]
-- **Question Types:** [Mix of multiple choice, rating scales, open-ended]
-- **Incentives:** [What you'll offer for participation]
+6. **Labor Relations/Union Representatives**
+   - **Interest:** Employee protection, fair treatment, contract compliance
+   - **Power:** Medium - can support or resist changes affecting members
+   - **Classification:** Secondary stakeholders - advocate for employee interests
 
-#### Key Survey Questions
-**Problem Assessment Questions:**
-- How frequently do you encounter [problem description]?
-- How significantly does this problem impact your work/experience?
-- What do you see as the main causes of this problem?
+## Power/Interest Matrix
 
-**Solution Feedback Questions:**
-- How would you rate the feasibility of [proposed solution]?
-- What concerns do you have about implementing this solution?
-- What would make this solution more effective?
+### High Power, High Interest (MANAGE CLOSELY)
+- **HR Professionals:** Key partners in designing and implementing standardization
+- **Senior Leadership:** Must approve initiative and allocate resources
 
-**Priority and Support Questions:**
-- How important is solving this problem compared to other priorities?
-- What level of support would you provide for this initiative?
-- What resources should be allocated to address this problem?
+### High Power, Low Interest (KEEP SATISFIED)
+- **Legal/Compliance:** Need regular updates to ensure legal defensibility
+- **Executive Leadership:** Keep informed of progress and ROI metrics
 
-### Interview Protocol
-#### Interview Structure
-- **Duration:** [Target length for each interview]
-- **Format:** [In-person, phone, video conference]
-- **Recording:** [Will interviews be recorded? How?]
-- **Note-taking:** [How will you capture responses]
+### Low Power, High Interest (KEEP INFORMED)
+- **Employees:** Directly affected, need communication about fairness improvements
+- **Managers/Supervisors:** Daily users, need training and support resources
 
-#### Interview Questions
-**Opening Questions:**
-- Tell me about your role and how this problem affects you
-- How long have you been aware of this issue?
+### Low Power, Low Interest (MONITOR)
+- **Labor Relations:** Monitor for concerns about union contract implications
+- **External Auditors:** Minimal engagement unless compliance issues arise
 
-**Problem Exploration:**
-- Can you describe a specific example of when this problem occurred?
-- What impact has this problem had on your work/experience?
-- What do you think causes this problem?
+## Data Collection Methods: Secondary Sources Approach
 
-**Solution Discussion:**
-- What solutions have you considered or tried?
-- How do you think [proposed solution] would work in practice?
-- What challenges or barriers do you foresee?
+**Note:** This project uses secondary sources (published research, surveys, reports, online discussions) rather than primary data collection (interviews, organization-specific surveys). This approach is appropriate for Milestone 2 and allows us to gather diverse stakeholder perspectives efficiently.
 
-**Implementation Questions:**
-- What would success look like from your perspective?
-- What support would you need to make this solution work?
-- Who else should be involved in addressing this problem?
+### Secondary Data Sources
 
-### Focus Groups (if applicable)
-#### Focus Group Design
-- **Group Size:** [Target number of participants per group]
-- **Number of Groups:** [How many focus groups planned]
-- **Group Composition:** [Homogeneous or mixed stakeholder groups]
-- **Facilitation:** [Who will facilitate and how]
+#### Source 1: SHRM (Society for Human Resource Management) Research
+- **URL:** https://www.shrm.org/topics-tools/research
+- **Stakeholder Perspectives:** HR professionals, organizational leaders
+- **Data Type:** Large-scale HR surveys, research reports, practitioner insights
+- **Rationale:** SHRM conducts annual surveys with thousands of HR professionals about performance management challenges, including appraisal fairness, standardization, and legal compliance concerns
+- **Representative Sample:** National surveys with 1,000+ HR professionals across industries and organization sizes
 
-## Sampling Strategy
+#### Source 2: Gallup Workplace Research
+- **URL:** https://www.gallup.com/workplace/
+- **Stakeholder Perspectives:** Employees, managers, leaders
+- **Data Type:** Employee engagement surveys, State of Global Workplace reports
+- **Rationale:** Gallup's Q12 engagement survey includes millions of employee responses about performance feedback quality and fairness perceptions. Manager surveys reveal implementation challenges
+- **Representative Sample:** Millions of employees and managers across global organizations
 
-### Stakeholder Identification
-#### Stakeholder Mapping
-[List specific individuals or groups you'll target]
+#### Source 3: Harvard Business Review (HBR) Articles
+- **URL:** https://hbr.org
+- **Stakeholder Perspectives:** Senior leadership, executives, HR leaders
+- **Data Type:** Case studies, executive interviews, research-based articles
+- **Rationale:** HBR publishes evidence-based articles on performance management ROI, executive concerns about appraisal effectiveness, and leadership perspectives on standardization benefits
+- **Representative Sample:** Fortune 500 executives, global business leaders, academic researchers
 
-#### Sampling Approach
-- **Total Target Sample:** [Number of stakeholders to engage]
-- **Sampling Method:** [Random, purposive, convenience, stratified]
-- **Representation Goals:** [What diversity of perspectives you want]
+#### Source 4: Glassdoor Company Reviews
+- **URL:** https://www.glassdoor.com
+- **Stakeholder Perspectives:** Employees, former employees
+- **Data Type:** Anonymous employee reviews mentioning performance review experiences
+- **Rationale:** Glassdoor reviews provide unfiltered employee perspectives on performance appraisal fairness, manager inconsistency, and impact on workplace culture
+- **Representative Sample:** Millions of employee reviews across thousands of organizations
 
-### Recruitment Strategy
-#### Outreach Method
-**Email Invitation Template:**
-[Draft your stakeholder outreach message]
+#### Source 5: LinkedIn Discussions & Professional Groups
+- **URL:** https://www.linkedin.com
+- **Stakeholder Perspectives:** Managers, HR professionals, employees
+- **Data Type:** Discussion threads, polls, professional group conversations
+- **Rationale:** LinkedIn groups for HR professionals and managers feature real-time discussions about performance management challenges, implementation experiences, and stakeholder concerns
+- **Representative Sample:** 900+ million professionals including HR practitioners and people managers
 
-**Follow-up Strategy:**
-[How and when you'll follow up with non-responders]
+## Sampling Strategy for Secondary Sources
 
-**Gatekeepers:**
-[Who might help you reach stakeholders or whose permission you need]
+### Stakeholder Representation Goals
+**Equal Voice Across Stakeholder Groups:**
+- **Employees:** 30% of evidence (from Gallup surveys, Glassdoor reviews, LinkedIn discussions)
+- **Managers:** 25% of evidence (from Gallup manager surveys, LinkedIn manager groups, HBR case studies)
+- **HR Professionals:** 25% of evidence (from SHRM research, LinkedIn HR groups, HBR articles)
+- **Senior Leadership:** 15% of evidence (from HBR executive interviews, Gallup leadership research)
+- **Legal/Compliance:** 5% of evidence (from SHRM legal compliance reports, HBR risk articles)
+
+### Data Collection Criteria
+**Inclusion Criteria:**
+- Published within last 5 years (2020-2025) to ensure current relevance
+- Sample size of 100+ respondents (for survey-based sources)
+- Clear methodology described
+- Addresses performance appraisal fairness, standardization, or consistency
+
+**Exclusion Criteria:**
+- Opinion pieces without data backing
+- Single-organization case studies (unless representative of broader patterns)
+- Sources older than 5 years (unless landmark studies)
+- Non-credible or unverified sources
 
 ## Ethical Considerations
 
-### Informed Consent
-- **Purpose Explanation:** [How you'll explain the research purpose]
-- **Participation Voluntariness:** [Making clear that participation is optional]
-- **Data Use:** [How you'll explain how their input will be used]
-- **Anonymity/Confidentiality:** [What privacy protections you'll provide]
+### Use of Secondary Data
+**Informed Consent:** All secondary sources used (SHRM, Gallup, Glassdoor, LinkedIn, HBR) obtained informed consent from original participants through their respective data collection processes.
 
-### Organizational Permissions
-- **Supervisor Approval:** [Do you need management approval for stakeholder engagement?]
-- **HR Consultation:** [Should you coordinate with HR for employee surveys/interviews?]
-- **External Stakeholder Protocols:** [Any special considerations for external stakeholders?]
+**Anonymity Protection:** 
+- Survey data (SHRM, Gallup) aggregates responses to protect individual identities
+- Glassdoor reviews are voluntarily posted anonymously
+- LinkedIn discussions are public professional forums
+- No individual identification in our analysis
+
+**Proper Attribution:**
+- All sources will be properly cited with full references
+- Survey sample sizes and demographics will be reported
+- Limitations of secondary data will be acknowledged
+
+**Fair Representation:**
+- Intentionally seeking diverse stakeholder perspectives
+- Not cherry-picking only favorable perspectives
+- Including concerns and resistance alongside supportive views
+- Acknowledging gaps where stakeholder voices are underrepresented
+
+### Organizational Context
+**No Primary Data Collection Required:** This Milestone 2 analysis uses publicly available secondary sources, so no organizational permissions or IRB approval are needed. Future implementation phases may require primary stakeholder engagement with appropriate approvals.
 
 ## Timeline and Logistics
 
 ### Data Collection Schedule
-- **Survey Launch:** [When you'll distribute surveys]
-- **Survey Close:** [Deadline for survey responses]
-- **Interview Period:** [Window for conducting interviews]
-- **Focus Group Dates:** [When focus groups will occur]
-- **Follow-up Period:** [Time for additional questions or clarifications]
+- **Week 1 (Nov 11-17):** 
+  - Extract SHRM research reports on performance management
+  - Review Gallup workplace engagement data related to performance feedback
+  - Identify relevant HBR articles on appraisal standardization
+  
+- **Week 2 (Nov 18-21):** 
+  - Analyze Glassdoor reviews mentioning performance review experiences
+  - Review LinkedIn HR and manager group discussions on appraisal challenges
+  - Synthesize stakeholder perspectives across all sources
+  
+- **Week 3 (Nov 21 - Milestone 2 Due):** 
+  - Complete stakeholder evidence appraisal
+  - Document quality assessment and limitations
+  - Finalize stakeholder evidence portfolio
 
 ### Logistical Planning
-#### Survey Distribution
-- **Distribution Method:** [Email, paper, internal systems]
-- **Reminder Schedule:** [When you'll send follow-up reminders]
-- **Technical Support:** [How you'll help participants with technical issues]
+**Data Storage:**
+- Save PDF copies of key research reports
+- Bookmark relevant articles and discussions
+- Create spreadsheet tracking source, stakeholder group, key insights
 
-#### Interview Scheduling
-- **Scheduling Method:** [How you'll coordinate interview times]
-- **Location Planning:** [Where interviews will take place]
-- **Equipment Needs:** [Recording equipment, note-taking materials]
-
-## Response Rate Strategy
-
-### Maximizing Participation
-#### Engagement Tactics
-- **Leadership Endorsement:** [Getting visible support from management]
-- **Clear Value Proposition:** [Explaining how participation benefits stakeholders]
-- **Convenient Participation:** [Making it easy to participate]
-- **Multiple Touchpoints:** [Various opportunities to engage]
-
-#### Incentive Strategy
-- **Direct Incentives:** [What you might offer participants]
-- **Indirect Benefits:** [How participation serves stakeholder interests]
-- **Recognition:** [How you might acknowledge participant contributions]
-
-### Minimum Viable Sample
-- **Minimum Response Rate:** [What response rate you need for credible results]
-- **Backup Plan:** [What you'll do if response rates are low]
-- **Alternative Methods:** [Other ways to gather stakeholder input if needed]
+**Analysis Organization:**
+- Code stakeholder quotes by group (employee, manager, HR, leadership, legal)
+- Track themes: fairness concerns, implementation barriers, support factors
+- Note contradictions or conflicts between stakeholder perspectives
 
 ## Data Management Plan
 
 ### Data Collection Organization
-- **Response Tracking:** [How you'll track who has responded]
-- **Data Storage:** [Where and how you'll store stakeholder responses]
-- **Data Security:** [How you'll protect stakeholder information]
-- **Backup Plan:** [How you'll prevent data loss]
+**Source Tracking Spreadsheet:**
+- Column 1: Source name and URL
+- Column 2: Stakeholder group(s) represented
+- Column 3: Sample size/credibility indicators
+- Column 4: Key quote or insight
+- Column 5: Theme/topic (fairness, legal risk, implementation, ROI)
+- Column 6: Supportive/Neutral/Resistant to standardization
 
 ### Analysis Preparation
-- **Coding Strategy:** [How you'll analyze open-ended responses]
-- **Quantitative Analysis:** [How you'll analyze survey data]
-- **Integration Plan:** [How you'll combine different types of stakeholder evidence]
+**Thematic Coding:**
+- **Problem Recognition:** Do stakeholders acknowledge appraisal inconsistency as a problem?
+- **Impact Assessment:** How do stakeholders describe impacts (fairness, morale, legal risk)?
+- **Solution Support:** Do stakeholders support standardization as a solution?
+- **Implementation Concerns:** What barriers or challenges do stakeholders foresee?
+- **Resource Requirements:** What do stakeholders say about training, time, and cost needs?
+
+**Stakeholder Comparison:**
+- Compare employee vs. manager perspectives on same issues
+- Identify where stakeholder groups align vs. conflict
+- Note power dynamics (whose concerns dominate discussions)
 
 ---
-INSTRUCTIONS:
-1. Start stakeholder engagement early - it often takes longer than expected
-2. Be respectful of stakeholder time and provide clear value for participation  
-3. Get appropriate permissions before engaging organizational stakeholders
-4. Plan for lower response rates than you hope for
-5. Have multiple methods to reach different types of stakeholders
+**MILESTONE 2 NOTE:** This methods document describes secondary source analysis appropriate for Milestone 2. No primary stakeholder interviews or organization-specific surveys are conducted at this stage. The focus is on understanding what existing research and public discussions reveal about stakeholder perspectives on performance appraisal standardization.
