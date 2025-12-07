@@ -482,6 +482,50 @@
             display: block;
         }
 
+        .recommendations-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.95em;
+        }
+
+        .recommendations-table th {
+            background-color: var(--sage-light);
+            color: var(--text-primary);
+            font-weight: 600;
+            border-bottom: 3px solid var(--step-primary);
+            padding: 20px;
+            text-align: left;
+        }
+
+        .recommendations-table td {
+            padding: 20px;
+            vertical-align: top;
+            text-align: left;
+        }
+
+        .recommendations-table tbody tr {
+            border-bottom: 2px solid var(--border-light);
+        }
+
+        .recommendations-table tbody tr:last-child {
+            border-bottom: none;
+        }
+
+        .recommendations-table td:first-child {
+            font-weight: bold;
+            color: var(--step-primary);
+            width: 20%;
+        }
+
+
+        .table-divider td {
+            /* This class is no longer needed, but leaving it to avoid breaking anything if it's used elsewhere */
+            padding: 0 !important;
+            height: 0;
+            border: none;
+        }
+
         /* Professional Text Styling */
         .card-tab-content h3 {
             color: var(--step-primary);
@@ -3028,8 +3072,169 @@
                             <h3 style="margin: 0; font-size: 1.3em; font-weight: 600; color: var(--text-primary);">Purpose</h3>
                         </div>
                         <p style="font-size: 1.05em; margin: 0; line-height: 1.4; font-weight: 400; color: var(--text-secondary);">
-                            Weigh and combine evidence from <strong>multiple sources</strong> to form <strong>evidence-based conclusions and recommendations</strong>.
+                            Weigh and combine evidence from <strong>multiple sources</strong> using <strong>Bayesian reasoning</strong> to form evidence-based conclusions and recommendations.
                         </p>
+                    </div>
+
+                    <!-- Bayesian Synthesis Card -->
+                    <div class="interactive-card">
+                        <div class="card-header" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white;">
+                            <span>🧮 Bayesian Evidence Synthesis</span>
+                        </div>
+                        <div class="card-content active">
+                            <div class="framework-section" style="background: #fff3e0; padding: 20px; border-radius: 8px; border-left: 4px solid #ff9800;">
+                                <h3 style="color: #e65100; margin-top: 0;">Final Confidence Level: 98%</h3>
+                                <p style="font-size: 1.1em; line-height: 1.6;">
+                                    Using Bayesian reasoning (Prior → Likelihood → Posterior), I synthesized evidence from all four sources to reach <strong>98% confidence</strong> that standardizing performance appraisals will reduce legal exposure and strengthen fairness.
+                                </p>
+                            </div>
+
+                            <div class="framework-section">
+                                <h3>📊 Journey of Belief (Prior → Posterior)</h3>
+                                <table style="width: 100%; border-collapse: collapse; margin-top: 15px;">
+                                    <thead>
+                                        <tr style="background: #f3e5f5; border-bottom: 2px solid #9c27b0;">
+                                            <th style="padding: 12px; text-align: left;">Evidence Type</th>
+                                            <th style="padding: 12px; text-align: center;">Prior</th>
+                                            <th style="padding: 12px; text-align: center;">Likelihood Ratio</th>
+                                            <th style="padding: 12px; text-align: center;">Posterior</th>
+                                            <th style="padding: 12px; text-align: left;">Interpretation</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr style="border-bottom: 1px solid #ddd;">
+                                            <td style="padding: 10px;"><strong>Starting Point</strong></td>
+                                            <td style="padding: 10px; text-align: center;">50%</td>
+                                            <td style="padding: 10px; text-align: center;">—</td>
+                                            <td style="padding: 10px; text-align: center;">—</td>
+                                            <td style="padding: 10px;">Neutral, pre-evidence baseline</td>
+                                        </tr>
+                                        <tr style="background-color: #f9f9f9; border-bottom: 1px solid #ddd;">
+                                            <td style="padding: 10px;"><strong>📚 Scientific</strong></td>
+                                            <td style="padding: 10px; text-align: center;">50%</td>
+                                            <td style="padding: 10px; text-align: center; color: #2e7d32; font-weight: bold;">3.0:1</td>
+                                            <td style="padding: 10px; text-align: center; font-weight: bold; color: #1976d2;">75%</td>
+                                            <td style="padding: 10px;">Meta-analysis + systematic review validate problem</td>
+                                        </tr>
+                                        <tr style="border-bottom: 1px solid #ddd;">
+                                            <td style="padding: 10px;"><strong>💼 Practitioner</strong></td>
+                                            <td style="padding: 10px; text-align: center;">75%</td>
+                                            <td style="padding: 10px; text-align: center; color: #2e7d32; font-weight: bold;">2.5:1</td>
+                                            <td style="padding: 10px; text-align: center; font-weight: bold; color: #1976d2;">88%</td>
+                                            <td style="padding: 10px;">Real-world success (50% behavior change, r=0.22-0.25)</td>
+                                        </tr>
+                                        <tr style="background-color: #f9f9f9; border-bottom: 1px solid #ddd;">
+                                            <td style="padding: 10px;"><strong>📊 Organizational</strong></td>
+                                            <td style="padding: 10px; text-align: center;">88%</td>
+                                            <td style="padding: 10px; text-align: center; color: #1b5e20; font-weight: bold;">4.0:1</td>
+                                            <td style="padding: 10px; text-align: center; font-weight: bold; color: #1976d2;">97%</td>
+                                            <td style="padding: 10px;">600K+ sample, r=0.54, 20-30% charge reduction</td>
+                                        </tr>
+                                        <tr style="border-bottom: 2px solid #9c27b0;">
+                                            <td style="padding: 10px;"><strong>👥 Stakeholder</strong></td>
+                                            <td style="padding: 10px; text-align: center;">97%</td>
+                                            <td style="padding: 10px; text-align: center; color: #2e7d32; font-weight: bold;">1.5:1</td>
+                                            <td style="padding: 10px; text-align: center; font-weight: bold; color: #1976d2;">98%</td>
+                                            <td style="padding: 10px;">146K+ voices validate feasibility & acceptance</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="framework-section">
+                                <h3>🎯 Why Each Evidence Type Changed My Confidence</h3>
+                                
+                                <details style="margin: 15px 0; border: 1px solid #ddd; border-radius: 8px; background: #fafafa;">
+                                    <summary style="padding: 15px; background: #e3f2fd; cursor: pointer; border-radius: 8px 8px 0 0; font-weight: 600;">
+                                        📚 Scientific Evidence: 50% → 75% (+25 points)
+                                    </summary>
+                                    <div style="padding: 20px;">
+                                        <p><strong>Likelihood Ratio: 3.0:1 in favor</strong></p>
+                                        <p><strong>Why this strength?</strong></p>
+                                        <ul>
+                                            <li>✅ Meta-analysis of 22 studies confirms 35-40% inconsistency rate</li>
+                                            <li>✅ Large sample (9,975 employees) shows 0.60 reliability ceiling</li>
+                                            <li>✅ Systematic review (64 studies) identifies structural solution need</li>
+                                            <li>⚠️ Limited: Studies focus on problem more than solution testing</li>
+                                        </ul>
+                                        <p><strong>Impact:</strong> Established theoretical foundation that standardization addresses root cause</p>
+                                    </div>
+                                </details>
+
+                                <details style="margin: 15px 0; border: 1px solid #ddd; border-radius: 8px; background: #fafafa;">
+                                    <summary style="padding: 15px; background: #f3e5f5; cursor: pointer; border-radius: 8px 8px 0 0; font-weight: 600;">
+                                        💼 Practitioner Evidence: 75% → 88% (+13 points)
+                                    </summary>
+                                    <div style="padding: 20px;">
+                                        <p><strong>Likelihood Ratio: 2.5:1 in favor</strong></p>
+                                        <p><strong>Why this strength?</strong></p>
+                                        <ul>
+                                            <li>✅ 5 case studies across diverse contexts (professional services, retail, tech, sports)</li>
+                                            <li>✅ Measurable outcomes: 50% behavior change (p<0.01), fairness correlation r=0.22-0.25</li>
+                                            <li>✅ Real implementation challenges identified (manager training needs, cultural adaptation)</li>
+                                            <li>⚠️ Limited: Observational, not experimental; no direct ROI data</li>
+                                        </ul>
+                                        <p><strong>Impact:</strong> Proved standardization works in practice, not just theory</p>
+                                    </div>
+                                </details>
+
+                                <details style="margin: 15px 0; border: 1px solid #ddd; border-radius: 8px; background: #fafafa;">
+                                    <summary style="padding: 15px; background: #e8f5e8; cursor: pointer; border-radius: 8px 8px 0 0; font-weight: 600;">
+                                        📊 Organizational Evidence: 88% → 97% (+9 points) - STRONGEST
+                                    </summary>
+                                    <div style="padding: 20px;">
+                                        <p><strong>Likelihood Ratio: 4.0:1 in favor (HIGHEST)</strong></p>
+                                        <p><strong>Why this strength?</strong></p>
+                                        <ul>
+                                            <li>✅ MASSIVE sample: 600,000+ employees (OPM FEVS), 81,000+ charges (EEOC)</li>
+                                            <li>✅ Objective outcomes: r=0.54 correlation, 20-30% charge reduction</li>
+                                            <li>✅ Longitudinal: 20+ years showing X precedes Y (temporal precedence)</li>
+                                            <li>✅ Government validation: Eliminates commercial bias</li>
+                                            <li>⚠️ Limited: Federal sector focus, confounding variables possible</li>
+                                        </ul>
+                                        <p><strong>Impact:</strong> Provided near-definitive proof with objective legal outcome measures</p>
+                                    </div>
+                                </details>
+
+                                <details style="margin: 15px 0; border: 1px solid #ddd; border-radius: 8px; background: #fafafa;">
+                                    <summary style="padding: 15px; background: #fff3e0; cursor: pointer; border-radius: 8px 8px 0 0; font-weight: 600;">
+                                        👥 Stakeholder Evidence: 97% → 98% (+1 point)
+                                    </summary>
+                                    <div style="padding: 20px;">
+                                        <p><strong>Likelihood Ratio: 1.5:1 in favor (MODEST)</strong></p>
+                                        <p><strong>Why this strength?</strong></p>
+                                        <ul>
+                                            <li>✅ 146,000+ voices across all stakeholder groups</li>
+                                            <li>✅ Universal support: 83% employees, 66% managers, 82% HR, 81% leadership</li>
+                                            <li>✅ Validates feasibility and acceptance, not just causation</li>
+                                            <li>⚠️ Modest impact: Confirms what other evidence already proved</li>
+                                            <li>⚠️ Implementation concern: 44% managers worried about flexibility loss</li>
+                                        </ul>
+                                        <p><strong>Impact:</strong> Confirmed solution is wanted and implementable, not just effective</p>
+                                    </div>
+                                </details>
+                            </div>
+
+                            <div class="framework-section" style="background: #e8f5e8; padding: 20px; border-radius: 8px; border-left: 4px solid #2e7d32;">
+                                <h3 style="color: #1b5e20; margin-top: 0;">✅ Final Confidence Statement</h3>
+                                <p style="font-size: 1.1em; line-height: 1.7; margin-bottom: 15px;">
+                                    <strong>I am 98% confident that standardizing performance appraisal processes will reduce legal exposure and strengthen fairness perceptions in our organization.</strong>
+                                </p>
+                                <p style="line-height: 1.6;">
+                                    This exceptional confidence reflects:
+                                </p>
+                                <ul style="line-height: 1.7;">
+                                    <li><strong>Massive scale:</strong> 600K+ employees, 81K+ charges, 10K+ establishments</li>
+                                    <li><strong>Objective validation:</strong> EEOC legal outcomes confirm survey perceptions</li>
+                                    <li><strong>Longitudinal support:</strong> 20+ years showing X→Y temporal precedence</li>
+                                    <li><strong>Stakeholder buy-in:</strong> All groups validate problem & support solution</li>
+                                    <li><strong>Cross-source convergence:</strong> Four independent evidence types agree</li>
+                                </ul>
+                                <p style="margin-top: 15px; line-height: 1.6;">
+                                    <strong>The 2% remaining uncertainty acknowledges:</strong> Organization-specific barriers, manager training challenges (44% flexibility concerns), implementation fidelity variance, and federal-to-private sector generalizability limits.
+                                </p>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- Cross-Evidence Summary -->
@@ -3249,51 +3454,571 @@
 
                 <!-- TAB 4: Application -->
                 <div class="tab-panel" id="tab-4">
-                    <h2>Application</h2>
-                    <p><strong>Implementation Planning:</strong> Put the evidence-based solution into practice.</p>
+                    <h2>Application: From Evidence to Action</h2>
+                    <p>This section translates the synthesized evidence into a concrete, actionable implementation plan using the "7 Questions Framework."</p>
 
-                    <div class="content-file-preview" onclick="openContentFile('application-implementation.txt')">
-                        <h4>📝 content/application-implementation.txt</h4>
-                        <div class="edit-notice">🖊️ Click to edit this file in VS Code</div>
-                        <pre>[Create detailed implementation plan with timeline, resources, and stakeholder communication]</pre>
+                    <!-- 7 Questions Framework Card -->
+                    <div class="interactive-card">
+                        <div class="card-header" onclick="toggleCard('q7-card')">
+                            <h3>Framework: The 7 Questions for Implementation</h3>
+                            <span class="card-toggle" id="q7-toggle">▼</span>
+                        </div>
+                        <div class="card-content" id="q7-card" style="display: none;">
+                            <div class="card-tabs">
+                                <button class="card-tab active" onclick="showCardTab('q7', 'problem')">1. Problem</button>
+                                <button class="card-tab" onclick="showCardTab('q7', 'audience')">2. Audience</button>
+                                <button class="card-tab" onclick="showCardTab('q7', 'behavior')">3. Behavior</button>
+                                <button class="card-tab" onclick="showCardTab('q7', 'evidence')">4. Evidence</button>
+                                <button class="card-tab" onclick="showCardTab('q7', 'delivery')">5. Delivery</button>
+                                <button class="card-tab" onclick="showCardTab('q7', 'measure')">6. Measure</button>
+                                <button class="card-tab" onclick="showCardTab('q7', 'adjust')">7. Adjust</button>
+                            </div>
+                            <div id="q7-problem" class="card-tab-content active">
+                                <h4>1. What is the problem?</h4>
+                                <p>Inconsistent and potentially biased performance appraisal processes are creating legal risks and undermining employee trust. The lack of standardized criteria and manager training leads to unfair outcomes.</p>
+                            </div>
+                            <div id="q7-audience" class="card-tab-content">
+                                <h4>2. Who are the target audience and key stakeholders?</h4>
+                                <p><strong>Primary Audience:</strong> HR Business Partners, People Managers. <br><strong>Secondary Audience:</strong> Senior Leadership, All Employees. <br><strong>Key Stakeholders:</strong> Legal & Compliance, DEI Council.</p>
+                            </div>
+                            <div id="q7-behavior" class="card-tab-content">
+                                <h4>3. What behavior needs to change?</h4>
+                                <p>Managers must shift from using subjective, inconsistent criteria to applying a standardized, evidence-based competency model for performance evaluations. HR must actively support and monitor this new process.</p>
+                            </div>
+                            <div id="q7-evidence" class="card-tab-content">
+                                <h4>4. What is the evidence-based advice?</h4>
+                                <p>Implement a structured appraisal system using a validated competency framework, provide mandatory frame-of-reference training for managers, and introduce a transparent review process to mitigate bias.</p>
+                            </div>
+                            <div id="q7-delivery" class="card-tab-content">
+                                <h4>5. How will the advice be delivered?</h4>
+                                <p>Through a phased pilot program, mandatory interactive training workshops for all managers, a new digital performance management tool, and an internal communications campaign.</p>
+                            </div>
+                            <div id="q7-measure" class="card-tab-content">
+                                <h4>6. How will we know if the behavior has changed?</h4>
+                                <p>We will track metrics such as the correlation between performance ratings and business outcomes, variance in ratings across departments, employee sentiment on fairness (via surveys), and the number of promotion/grievance appeals.</p>
+                            </div>
+                            <div id="q7-adjust" class="card-tab-content">
+                                <h4>7. How will the solution be adjusted?</h4>
+                                <p>A standing Performance Review Committee will meet quarterly to analyze data from the bias dashboard, review feedback, and recommend adjustments to the competency model, training modules, or process workflows.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Recommendations Section -->
+                    <h3>Core Recommendations</h3>
+                    <p>Based on the evidence, we propose a three-pronged approach to standardize performance appraisals, mitigate bias, and build a culture of fairness.</p>
+                    <div class="recommendations-table-container">
+                        <table class="recommendations-table">
+                            <thead>
+                                <tr>
+                                    <th>Recommendation</th>
+                                    <th>Description (What & Why)</th>
+                                    <th>Audience (Who)</th>
+                                    <th>Timeline</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>1. Phased Pilot Program</strong></td>
+                                    <td>Launch a 6-month pilot to test the new appraisal process and digital tool. This allows for iterative feedback and refinement before a full-scale rollout, minimizing enterprise-wide risk.</td>
+                                    <td>Engineering & Sales departments (as treatment groups)</td>
+                                    <td>Q1-Q2</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>2. Mandatory Manager Training</strong></td>
+                                    <td>Deploy a "Fair & Effective Appraisals" workshop for all people managers to build competence in applying the new framework, understanding unconscious bias, and delivering constructive feedback.</td>
+                                    <td>All People Managers</td>
+                                    <td>Q2</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>3. Bias Monitoring Dashboard</strong></td>
+                                    <td>Create a real-time dashboard to monitor rating distributions, promotion rates, and compensation adjustments across demographic groups, enabling proactive identification of systemic bias.</td>
+                                    <td>HR Business Partners & Senior Leadership</td>
+                                    <td>Q3</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
 
                 <!-- TAB 5: Assessment -->
                 <div class="tab-panel" id="tab-5">
-                    <h2>Assessment</h2>
-                    <p><strong>Continuous Improvement:</strong> Evaluate results and refine the approach.</p>
+                    <h2>Assessment: Measuring Success & Driving Improvement</h2>
+                    <p>This section outlines the plan for evaluating the effectiveness of the new performance management system and ensuring it delivers the intended outcomes.</p>
 
-                    <div class="content-file-preview" onclick="openContentFile('assessment-monitoring.txt')">
-                        <h4>📝 content/assessment-monitoring.txt</h4>
-                        <div class="edit-notice">🖊️ Click to edit this file in VS Code</div>
-                        <pre>[Evaluate the effectiveness of your EBM process and solution]</pre>
-                    </div>
-
-                    <div style="text-align: center; margin-top: 30px;">
-                        <h3>🎉 EBM Cycle Complete!</h3>
-                        <p>Congratulations! You've built a professional Evidence-Based Management dashboard.</p>
-                        <div>
-                            <button class="btn" onclick="window.open('PROJECT_TRACKER.md')">View Project Tracker</button>
-                            <button class="btn" onclick="showTab(1)">↻ Review Complete Process</button>
+                    <!-- Logic Model Card -->
+                    <div class="interactive-card">
+                        <div class="card-header" onclick="toggleCard('logic-model-card')">
+                            <h3>Framework: Causal Logic Model</h3>
+                            <span class="card-toggle" id="logic-model-toggle">▼</span>
+                        </div>
+                        <div class="card-content" id="logic-model-card" style="display: none;">
+                            <!-- Logic Model Overview -->
+                            <div style="background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); padding: 25px; border-radius: 12px; margin-bottom: 30px; border-left: 4px solid #2e7d32;">
+                                <h4 style="margin-top: 0; color: #1b5e20;">Logic Model Framework</h4>
+                                <p style="font-size: 1.05em; line-height: 1.6; margin-bottom: 0;">
+                                    This causal model demonstrates how <strong>standardizing performance appraisal processes</strong> (our intervention) leads to improved organizational outcomes through specific mediating mechanisms.
+                                </p>
+                            </div>
+                            
+                            <!-- Detailed Components Table -->
+                            <h4>Logic Model Components</h4>
+                            <div style="background: #f8f9fa; padding: 25px; border-radius: 12px; margin: 25px 0;">
+                                <table class="recommendations-table">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 18%;">Component</th>
+                                            <th>Description</th>
+                                            <th style="width: 32%;">Measurement Approach</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong style="color: #1565c0;">Intervention (X)</strong></td>
+                                            <td>
+                                                <strong>What We Will Do:</strong><br>
+                                                • Implement standardized evaluation criteria<br>
+                                                • Conduct mandatory manager training on bias awareness<br>
+                                                • Deploy calibration meetings for rating alignment<br>
+                                                • Introduce structured performance rubrics
+                                            </td>
+                                            <td>
+                                                • Training completion rate (target: 100%)<br>
+                                                • Calibration meeting attendance<br>
+                                                • System adoption metrics (HRIS data)<br>
+                                                • Process compliance audits
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong style="color: #7b1fa2;">Mediators (M)</strong></td>
+                                            <td>
+                                                <strong>How Change Happens:</strong><br>
+                                                • <strong>Increased Manager Competence:</strong> Better trained managers make more consistent decisions<br>
+                                                • <strong>Increased Process Consistency:</strong> Standardized rubrics reduce variance<br>
+                                                • <strong>Decreased Unconscious Bias:</strong> Awareness training and calibration reduce bias
+                                            </td>
+                                            <td>
+                                                • Manager confidence surveys<br>
+                                                • Rating distribution variance analysis<br>
+                                                • Inter-rater reliability (IRR) scores<br>
+                                                • Bias indicators (demographic parity)
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong style="color: #2e7d32;">Outcomes (Y)</strong></td>
+                                            <td>
+                                                <strong>Expected Results:</strong><br>
+                                                • <strong>Reduced Legal Exposure:</strong> Fewer discrimination claims and grievances<br>
+                                                • <strong>Improved Fairness & Transparency:</strong> Employees perceive appraisals as equitable<br>
+                                                • <strong>Increased Employee Trust:</strong> Confidence in HR processes and leadership
+                                            </td>
+                                            <td>
+                                                • EEOC charge counts (legal costs)<br>
+                                                • Employee fairness perception surveys<br>
+                                                • Trust in Leadership Index<br>
+                                                • eNPS (Employee Net Promoter Score)
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            
+                            <div class="card-section-divider"></div>
+                            
+                            <!-- Evaluation Design Section -->
+                            <h4>Evaluation Design: Quasi-Experimental Approach</h4>
+                            <div style="background: #e8f5e8; padding: 20px; border-radius: 10px; margin: 20px 0; border-left: 4px solid #2e7d32;">
+                                <p style="margin-bottom: 15px; font-size: 1.05em;">
+                                    We will use a <strong>pre-test/post-test non-equivalent control group</strong> design to rigorously evaluate intervention effectiveness. This design allows us to compare outcomes between departments that receive the intervention (treatment group) and those that continue with existing processes (control group).
+                                </p>
+                                <p style="margin: 0; font-weight: 600;">
+                                    <strong>Timeline:</strong> 6-month pilot period with baseline measurement (Month 0), mid-point check (Month 3), and final evaluation (Month 6)
+                                </p>
+                            </div>
+                            
+                            <h4>Study Groups & Design</h4>
+                            <div style="background: #f8f9fa; padding: 25px; border-radius: 12px; margin: 25px 0;">
+                                <table class="recommendations-table">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 20%;">Group</th>
+                                            <th style="width: 20%;">Departments</th>
+                                            <th style="width: 20%;">Sample Size</th>
+                                            <th>Role & Intervention</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Treatment Group</strong></td>
+                                            <td>Engineering<br>Sales</td>
+                                            <td>
+                                                ~150 employees<br>
+                                                ~15 managers<br>
+                                                <span style="color: #2e7d32; font-weight: 600;">N=165 total</span>
+                                            </td>
+                                            <td>
+                                                <strong>Receives full intervention:</strong><br>
+                                                • Standardized appraisal system<br>
+                                                • Manager training (bias awareness, calibration)<br>
+                                                • Monthly calibration meetings<br>
+                                                • HRIS system with rating analytics
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Control Group</strong></td>
+                                            <td>Marketing<br>Operations</td>
+                                            <td>
+                                                ~140 employees<br>
+                                                ~14 managers<br>
+                                                <span style="color: #1976d2; font-weight: 600;">N=154 total</span>
+                                            </td>
+                                            <td>
+                                                <strong>Continues existing process:</strong><br>
+                                                • Current appraisal system (no changes)<br>
+                                                • No additional training during pilot<br>
+                                                • Business-as-usual approach<br>
+                                                • <em>Note: Will receive intervention after pilot (delayed implementation)</em>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            
+                            <!-- Measurement Strategy -->
+                            <h4>Measurement Strategy</h4>
+                            <div style="background: #f8f9fa; padding: 25px; border-radius: 12px; margin: 25px 0;">
+                                <table class="recommendations-table">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 20%;">Time Point</th>
+                                            <th>Metrics Collected</th>
+                                            <th style="width: 25%;">Purpose</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Baseline (Month 0)</strong></td>
+                                            <td>
+                                                • IRR calibration study (20 appraisals, 5 raters)<br>
+                                                • Employee fairness perception survey<br>
+                                                • Manager confidence assessment<br>
+                                                • Demographic & performance data
+                                            </td>
+                                            <td>Establish pre-intervention levels; verify group equivalence</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Mid-Point (Month 3)</strong></td>
+                                            <td>
+                                                • Process compliance checks<br>
+                                                • Training completion rates<br>
+                                                • Manager feedback surveys<br>
+                                                • Early rating variance analysis
+                                            </td>
+                                            <td>Monitor implementation fidelity; make mid-course adjustments</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Final (Month 6)</strong></td>
+                                            <td>
+                                                • IRR calibration study (same method as baseline)<br>
+                                                • Employee fairness perception survey<br>
+                                                • Grievance/complaint counts<br>
+                                                • Full rating distribution analysis<br>
+                                                • Manager & employee satisfaction
+                                            </td>
+                                            <td>Measure intervention impact; compare treatment vs. control outcomes</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            
+                            <!-- Key Assumptions -->
+                            <div style="background: #fff3e0; padding: 20px; border-radius: 8px; margin-top: 25px; border-left: 4px solid #f57c00;">
+                                <h4 style="color: #e65100; margin-top: 0;">⚖️ Critical Assumptions & Validity Checks</h4>
+                                <table class="recommendations-table" style="margin-top: 15px;">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 30%;">Assumption</th>
+                                            <th>Verification Method</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Baseline Equivalence</strong></td>
+                                            <td>Statistical tests (t-tests, chi-square) to verify treatment and control groups are similar on demographics, tenure, baseline performance, and past appraisal ratings</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>No Contamination</strong></td>
+                                            <td>Monitor for information spillover between groups; ensure control departments don't adopt intervention practices informally</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Implementation Fidelity</strong></td>
+                                            <td>Track training attendance, calibration meeting participation, system usage; ensure intervention delivered as designed</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Stable External Conditions</strong></td>
+                                            <td>Document any organizational changes, policy updates, or external events during pilot that could confound results</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
 
-                    <!-- Project Status Section -->
-                    <div class="project-status-section">
-                        <button class="project-status-btn" onclick="toggleProjectStatus('tab5')">
-                            Project Status
-                        </button>
-                        <div class="project-status-content" id="tab5-status">
-                            <h4>� Final Assessment Checklist (Week 16)</h4>
-                            <ul class="checklist">
-                                <li>Assessment framework completed</li>
-                                <li>Lessons learned documented</li>
-                                <li>Dashboard polished for portfolio</li>
-                                <li>Peer review feedback incorporated</li>
-                                <li>Final reflection on EBM process</li>
-                            </ul>
-                        </div>
+                    <!-- KPIs Section -->
+                    <h3>Key Performance Indicators (KPIs)</h3>
+                    <div style="background: #f8f9fa; padding: 25px; border-radius: 12px; margin: 25px 0;">
+                        <table class="recommendations-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 25%;">Category</th>
+                                    <th>Metrics</th>
+                                    <th style="width: 20%;">Target</th>
+                                    <th style="width: 20%;">Data Source</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Process Consistency</strong></td>
+                                    <td>
+                                        • Variance in performance ratings across departments<br>
+                                        • % of managers who completed training<br>
+                                        • Time-to-complete for appraisal cycle
+                                    </td>
+                                    <td>
+                                        ≤10% variance<br>
+                                        100% completion<br>
+                                        ≤4 weeks
+                                    </td>
+                                    <td>
+                                        HRIS<br>
+                                        LMS<br>
+                                        HRIS
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Fairness & Bias</strong></td>
+                                    <td>
+                                        • Rating distribution by demographic group<br>
+                                        • Correlation of ratings with voluntary turnover<br>
+                                        • Number of appraisal-related grievances
+                                    </td>
+                                    <td>
+                                        No significant disparities<br>
+                                        r ≤ -0.15<br>
+                                        ≤5 per year
+                                    </td>
+                                    <td>
+                                        HRIS + Analytics<br>
+                                        HR Analytics<br>
+                                        HR Case Management
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Employee Perceptions</strong></td>
+                                    <td>
+                                        • eNPS score (related to fairness)<br>
+                                        • Annual survey: "My manager provides fair feedback"<br>
+                                        • Trust in Leadership Index
+                                    </td>
+                                    <td>
+                                        ≥20<br>
+                                        ≥80% favorable<br>
+                                        ≥75%
+                                    </td>
+                                    <td>
+                                        Employee Survey<br>
+                                        Annual Survey<br>
+                                        Quarterly Pulse
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Organizational Impact</strong></td>
+                                    <td>
+                                        • Legal costs from employment disputes<br>
+                                        • Correlation of high ratings with business unit performance<br>
+                                        • Rate of internal mobility/promotions<br>
+                                        • Cost-per-hire
+                                    </td>
+                                    <td>
+                                        ↓30% reduction<br>
+                                        r ≥ 0.40<br>
+                                        ↑20% increase<br>
+                                        ↓15% reduction
+                                    </td>
+                                    <td>
+                                        Legal/Finance<br>
+                                        HRIS + Finance<br>
+                                        HRIS<br>
+                                        Recruiting System
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <!-- Measurement Timeline -->
+                    <h3>Measurement Timeline & Cadence</h3>
+                    <div style="background: #f8f9fa; padding: 25px; border-radius: 12px; margin: 25px 0;">
+                        <table class="recommendations-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 20%;">Frequency</th>
+                                    <th>Metrics Measured</th>
+                                    <th style="width: 25%;">Purpose</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Real-Time (Continuous)</strong></td>
+                                    <td>
+                                        • Manager training completion rates<br>
+                                        • Appraisal cycle time-to-complete<br>
+                                        • System usage/adoption metrics
+                                    </td>
+                                    <td>Early warning system for process compliance</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Quarterly</strong></td>
+                                    <td>
+                                        • Rating distribution variance<br>
+                                        • Trust in Leadership Index<br>
+                                        • Grievance counts<br>
+                                        • Turnover correlation analysis
+                                    </td>
+                                    <td>Track progress toward targets; adjust interventions</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Annually</strong></td>
+                                    <td>
+                                        • Comprehensive employee survey (fairness perception)<br>
+                                        • eNPS score<br>
+                                        • Legal cost analysis<br>
+                                        • ROI assessment
+                                    </td>
+                                    <td>Comprehensive program evaluation; strategic planning</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Baseline & 12-Month</strong></td>
+                                    <td>
+                                        • Inter-rater reliability (IRR) calibration study<br>
+                                        • Full demographic equity analysis<br>
+                                        • Promotion/mobility rate analysis
+                                    </td>
+                                    <td>Quasi-experimental design comparison; measure intervention impact</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <!-- Success Criteria & Decision Framework -->
+                    <h3>Success Criteria & Decision Framework</h3>
+                    <div style="background: #f8f9fa; padding: 25px; border-radius: 12px; margin: 25px 0;">
+                        <table class="recommendations-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 25%;">Outcome Level</th>
+                                    <th>Criteria</th>
+                                    <th style="width: 30%;">Decision/Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>🌟 Exceeds Expectations</strong></td>
+                                    <td>
+                                        • IRR ≥0.9 (90% consistency)<br>
+                                        • Employee fairness perception ≥85%<br>
+                                        • Legal costs reduced ≥40%<br>
+                                        • All KPIs meet or exceed targets
+                                    </td>
+                                    <td>
+                                        <strong>Accelerate:</strong> Expand to all departments immediately; document best practices; share externally
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>✅ Meets Expectations</strong></td>
+                                    <td>
+                                        • IRR ≥0.8 with ≤10% variance<br>
+                                        • Employee fairness perception ≥80%<br>
+                                        • Legal costs reduced 20-30%<br>
+                                        • 80%+ KPIs on target
+                                    </td>
+                                    <td>
+                                        <strong>Continue:</strong> Proceed with planned rollout; maintain current monitoring; minor refinements
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>⚠️ Needs Improvement</strong></td>
+                                    <td>
+                                        • IRR 0.65-0.79<br>
+                                        • Employee fairness perception 70-79%<br>
+                                        • Legal costs reduced 10-20%<br>
+                                        • 60-79% KPIs on target
+                                    </td>
+                                    <td>
+                                        <strong>Adjust:</strong> Identify specific gaps; enhance training; increase calibration meetings; delay full rollout 3-6 months
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>🔴 Below Expectations</strong></td>
+                                    <td>
+                                        • IRR <0.65<br>
+                                        • Employee fairness perception <70%<br>
+                                        • Legal costs no reduction or increase<br>
+                                        • <60% KPIs on target
+                                    </td>
+                                    <td>
+                                        <strong>Redesign:</strong> Pause rollout; conduct root cause analysis; major intervention redesign; stakeholder feedback sessions
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <!-- Continuous Improvement Process -->
+                    <h3>Continuous Improvement Process</h3>
+                    <div style="background: #e8f5e8; padding: 25px; border-radius: 12px; margin: 25px 0; border-left: 4px solid #2e7d32;">
+                        <table class="recommendations-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 15%;">Step</th>
+                                    <th>Activity</th>
+                                    <th style="width: 25%;">Frequency</th>
+                                    <th style="width: 20%;">Owner</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>1. Monitor</strong></td>
+                                    <td>Track KPIs via dashboards; collect employee/manager feedback; review calibration meeting effectiveness</td>
+                                    <td>Ongoing (real-time + quarterly)</td>
+                                    <td>HR Analytics Team</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>2. Analyze</strong></td>
+                                    <td>Identify trends, anomalies, and root causes; compare treatment vs. control groups; statistical significance testing</td>
+                                    <td>Quarterly</td>
+                                    <td>HR Analytics + Leadership</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>3. Decide</strong></td>
+                                    <td>Determine if intervention is on track; identify specific improvement opportunities; resource allocation decisions</td>
+                                    <td>Quarterly</td>
+                                    <td>HR Leadership + Steering Committee</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>4. Act</strong></td>
+                                    <td>Implement refinements (training updates, tool enhancements, process adjustments); communicate changes to stakeholders</td>
+                                    <td>As needed (post-decision)</td>
+                                    <td>HR Implementation Team</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>5. Learn</strong></td>
+                                    <td>Document lessons learned; update playbook; share insights across departments; celebrate wins</td>
+                                    <td>Quarterly + Annually</td>
+                                    <td>HR Leadership</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -3475,14 +4200,14 @@
             updateProgressIndicator(1);
             updateLastUpdatedDate();
             
-            // Initialize interactive cards - problem-card expanded, others collapsed
-            const cards = ['problem-card', 'stakeholder-card', 'success-card'];
+            // Initialize interactive cards - problem-card and q7-card expanded, others collapsed
+            const cards = ['problem-card', 'stakeholder-card', 'success-card', 'q7-card', 'logic-model-card', 'scientific-evidence-card', 'practitioner-evidence-card', 'organizational-evidence-card', 'stakeholder-evidence-card'];
             cards.forEach(cardId => {
                 const cardContent = document.getElementById(cardId);
                 const toggle = document.getElementById(cardId.replace('-card', '-toggle'));
                 if (cardContent && toggle) {
-                    if (cardId === 'problem-card') {
-                        // Keep Problem Definition Framework expanded by default
+                    if (cardId === 'problem-card' || cardId === 'q7-card' || cardId === 'logic-model-card') {
+                        // Keep Problem Definition, 7 Questions, and Logic Model Framework expanded by default
                         cardContent.style.display = 'block';
                         toggle.textContent = '▲';
                         toggle.style.transform = 'rotate(180deg)';
